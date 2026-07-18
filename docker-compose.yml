@@ -1,0 +1,62 @@
+version: '3.9'
+
+services:
+  postgres:
+    image: postgres:15
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: lifelink_db
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    ports:
+      - '5432:5432'
+
+  redis:
+    image: redis:7
+    restart: always
+    ports:
+      - '6379:6379'
+
+  backend:
+    image: python:3.11-slim
+    command: sh -c "pip install -r requirements.txt && uvicorn app.main:app --host 0.0.0.0 --port 3010 --reload"
+    working_dir: /app
+    volumes:
+      - ./backend:/app
+      - ./backend/.rag:/app/.rag
+    environment:
+      POSTGRES_URL: postgresql+asyncpg://postgres:postgres@postgres:5432/lifelink_db
+      JWT_SECRET: replace_with_secure_secret
+      FRONTEND_URL: http://localhost:5000
+      APP_ENV: development
+      REDIS_URL: redis://redis:6379/0
+      CELERY_BROKER_URL: redis://redis:6379/0
+      CELERY_RESULT_BACKEND: redis://redis:6379/1
+      LLM_PROVIDER: groq
+      GROQ_BASE_URL: https://api.groq.com
+      GROQ_MODEL: llama3-8b-8192
+      EMBEDDING_MODEL: sentence-transformers/all-MiniLM-L6-v2
+    ports:
+      - '3010:3010'
+    depends_on:
+      - postgres
+      - redis
+
+  frontend:
+    image: node:20-bullseye
+    command: sh -c "cd /app && npm install && npm run dev -- --host 0.0.0.0 --port 5000"
+    working_dir: /app
+    volumes:
+      - ./client:/app
+    environment:
+      VITE_API_URL: http://localhost:3010
+    ports:
+      - '5000:5000'
+    depends_on:
+      - backend
+
+volumes:
+  postgres_data:
+    driver: local

@@ -1,0 +1,295 @@
+LifeLink-MERN-v4 Setup and Deployment Instructions
+===================================================
+
+This file describes the minimum requirements, environment setup, run commands, and deployment notes for users cloning this repository.
+
+1. Clone the repository
+------------------------
+
+    git clone <repository-url>
+    cd "LifeLink-MERN-v4"
+
+2. Required software
+---------------------
+
+Frontend:
+- Node.js 18+ (Node 20 is fine)
+- npm or yarn
+
+Backend:
+- Python 3.11
+- pip
+- PostgreSQL 15+
+- Redis 7+ (required for Celery and realtime background tasks)
+
+Optional local containerized stack:
+- Docker
+- docker-compose
+
+3. Project structure
+---------------------
+
+- `client/`: React + Vite frontend
+- `backend/`: FastAPI backend
+- `docker-compose.yml`: optional local stack with postgres, redis, backend, and frontend
+- `client/.env.example`: frontend environment variables sample
+- `backend/.env.example`: backend environment variables sample
+
+4. Install dependencies
+------------------------
+
+Frontend:
+
+    cd client
+    npm install
+
+Backend:
+
+    cd backend
+    python -m venv .venv
+    .\.venv\Scripts\Activate.ps1   # Windows PowerShell
+    # or . .venv/Scripts/activate     # bash / WSL
+    pip install --upgrade pip
+    pip install -r requirements.txt
+
+5. Environment files
+---------------------
+
+Copy the sample env files and fill in values.
+
+Frontend:
+
+    cd client
+    copy .env.example .env
+
+Backend:
+
+    cd backend
+    copy .env.example .env
+
+Required values for backend/.env:
+- APP_ENV=development
+- PORT=3010
+- FRONTEND_URL=http://localhost:5000
+- POSTGRES_URL=postgresql+asyncpg://<user>:<password>@<host>:<port>/<database>
+- JWT_SECRET=your_jwt_secret_key
+- REDIS_URL=redis://localhost:6379/0
+- CELERY_BROKER_URL=redis://localhost:6379/0
+- CELERY_RESULT_BACKEND=redis://localhost:6379/1
+- LLM_PROVIDER=groq
+- GROQ_API_KEY=your_groq_api_key
+- GROQ_BASE_URL=https://api.groq.com
+- GROQ_MODEL=llama3-8b-8192
+- OPENAI_API_KEY=your_openai_api_key (optional)
+- OPENAI_MODEL=gpt-4o-mini
+- EMBEDDING_MODEL=sentence-transformers/all-MiniLM-L6-v2
+- RAG_TOP_K=5
+
+Required value for client/.env:
+- VITE_API_URL=http://localhost:3010
+
+6. Database and services
+-------------------------
+
+If running locally without Docker, start PostgreSQL and Redis first.
+
+### PostgreSQL initialization and seed commands
+
+From `backend/` with your Python virtualenv active and `backend/.env` configured:
+
+- Reset the local database (drops and recreates `lifelink_db`):
+
+    .\.venv\Scripts\python.exe scripts/reset_postgres_db.py
+
+  > Note: `backend/scripts/reset_postgres_db.py` currently uses hard-coded local Postgres credentials for `localhost:5432`. If your local Postgres user/password differs, edit that script or use `psql` directly.
+
+- Apply PostgreSQL schema and seed demo data if the database is empty:
+
+    .\.venv\Scripts\python.exe scripts/bootstrap_database.py
+
+- Seed example hospital and public data into PostgreSQL:
+
+    .\.venv\Scripts\python.exe scripts/seedpublichospital.py
+
+- Verify PostgreSQL tables and row counts:
+
+    .\.venv\Scripts\python.exe scripts/verify_database.py
+
+- Optional: create any additional indexes after seed data:
+
+    .\.venv\Scripts\python.exe scripts/create_indexes.py
+
+> Note: `scripts/import_hospital_locations.py` is provided for importing hospital location CSV data into the app's Mongo-backed hospital collection. It uses `backend/.env` for Mongo connection settings, so only run it if you are populating hospital location demo data from CSV.
+
+Example import command:
+
+    .\.venv\Scripts\python.exe scripts/import_hospital_locations.py --input ml\hospital_data.csv --allow-fallback
+
+You may also run the same helpers from the Docker container if you prefer:
+
+    docker-compose up -d postgres redis
+    docker-compose exec backend python scripts/bootstrap_database.py
+    docker-compose exec backend python scripts/seedpublichospital.py
+
+You may also use Docker Compose directly:
+
+    docker-compose up --build
+
+This will start:
+- PostgreSQL on localhost:5432
+- Redis on localhost:6379
+- backend on localhost:3010
+- frontend on localhost:5000
+
+7. Run backend locally
+-----------------------
+
+From `backend/` with Python virtualenv active:
+
+    uvicorn app.main:app --host 0.0.0.0 --port 3010 --reload
+
+If you change `client/.env`, restart Vite.
+
+8. Run frontend locally
+------------------------
+
+From `client/`:
+
+    npm run dev -- --host 0.0.0.0 --port 5000
+
+9. Train ML models and regenerate datasets
+-----------------------------------------
+
+From `backend/` with the virtualenv active:
+
+- Train the emergency alert classifier:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train ml\911_calls.csv
+
+- Train donor compatibility:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_compat ml\compatibility_data.csv
+
+- Train hospital recommendation:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_recommend ml\hospital_data.csv
+
+- Train health risk model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_risk ml\health_risk_data.csv
+
+- Train activity clustering model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_cluster ml\user_activity_data.csv
+
+- Train behavior forecast model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_forecast ml\user_forecast_data.csv
+
+- Train emergency hotspot model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_hotspot ml\emergency_hotspot_data.csv
+
+- Train outbreak forecast model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_forecast_outbreak ml\outbreak_data.csv
+
+- Train emergency severity model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_severity ml\emergency_severity_data.csv
+
+- Train donor availability model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_availability ml\donor_availability_data.csv
+
+- Train policy segmentation model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_policy_seg ml\policy_data.csv
+
+- Train healthcare performance model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_perf_score ml\policy_data.csv
+
+- Train anomaly detection model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_anomaly ml\anomaly_data.csv
+
+- Train hospital severity model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_hosp_severity ml\hospital_severity_data.csv
+
+- Train hospital performance model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_hosp_perf ml\hospital_performance_data.csv
+
+- Train patient recovery model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_recovery ml\patient_outcome_data.csv
+
+- Train stay duration model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_stay ml\patient_outcome_data.csv
+
+- Train inventory model:
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_inventory ml\inventory_data.csv
+
+- Train allocation / policy model (outputs `allocation_q_table.joblib`):
+
+    .\.venv\Scripts\python.exe ml\ai_ml.py train_allocation
+
+Model outputs are written to `backend/ml/*.joblib`.
+
+10. Login / credentials
+-----------------------
+
+The frontend uses JWT auth and stores tokens in session/local storage.
+
+For real backend testing, you must create or use seeded users. The repository includes demo credential generation under `backend/scripts/demo_credentials.csv`.
+
+Example government demo credentials in that file:
+- email: government.001@lifelink.demo
+- password: Demo@2026!
+- role: government
+
+If the app uses demo mode in the frontend, it may bypass the backend and use built-in demo accounts.
+
+10. Common issues
+------------------
+
+- "Cannot reach server": backend is not running or `VITE_API_URL` is wrong.
+- 401 Unauthorized in government module: login token missing, expired, or frontend did not store it.
+- If you update `.env`, restart Vite and the backend.
+
+11. Deployment notes
+---------------------
+
+For production deployment:
+- use a secure `JWT_SECRET`
+- use a managed PostgreSQL instance and Redis
+- set `FRONTEND_URL` correctly in `backend/.env`
+- set `VITE_API_URL` in frontend environment variables
+- disable debug/reload in Uvicorn
+
+If using Vercel for frontend:
+- set `VITE_API_URL` to your backend base URL in Vercel settings
+
+If using Render or another cloud provider:
+- set environment variables from `backend/.env` in the platform config
+- ensure backend port is exposed and matches the frontend URL
+
+12. Quick Docker Compose startup
+-------------------------------
+
+    docker-compose up --build
+
+Then open:
+- http://localhost:5000 for frontend
+- http://localhost:3010 for backend API
+
+13. Notes
+---------
+
+This application includes multiple modules (public, hospital, ambulance, government) plus AI/ML paths.
+You'll need a valid Groq API key for AI/Groq inference integrations.
+If you do not have Groq credentials, comment or disable backend AI routes temporarily.

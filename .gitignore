@@ -1,0 +1,39 @@
+# dependencies
+node_modules/
+
+# environment
+.env
+*.env
+
+# Python caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+
+# local virtual environments
+.venv/
+.venv-py314/
+
+# builds
+build/
+dist/
+
+# logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS files
+.DS_Store
+
+# ignore generated docker build context files
+.dockerignore
+
+# ignore local AI vector index data
+backend/.rag/
+
+# ignore node environment artifacts
+**/node_modules/
