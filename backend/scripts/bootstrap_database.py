@@ -48,28 +48,34 @@ async def _wait_for_postgres(dsn: str, retries: int = 12, delay_seconds: int = 5
 
 
 async def _apply_schema(dsn: str) -> None:
-    if not SCHEMA_FILE.exists():
-        raise FileNotFoundError(f"Schema file missing: {SCHEMA_FILE}")
+    schema_files = [ROOT_DIR / "schema.sql", ROOT_DIR / "schema1.sql"]
+    for schema_path in schema_files:
+        if not schema_path.exists():
+            raise FileNotFoundError(f"Schema file missing: {schema_path}")
 
-    print(f"[bootstrap_database] Applying schema from {SCHEMA_FILE}")
-    raw_sql = SCHEMA_FILE.read_text(encoding='utf-8')
-    statements = [stmt.strip() for stmt in raw_sql.split(";") if stmt.strip()]
-    async with await asyncpg.connect(dsn=dsn) as conn:
-        for statement in statements:
-            try:
-                await conn.execute(statement)
-            except asyncpg.PostgresError as exc:
-                text = str(exc).lower()
-                if "create extension" in statement.lower() and "permission denied" in text:
-                    print(f"[bootstrap_database] Warning: extension creation skipped: {exc}")
-                    continue
-                if "already exists" in text:
-                    continue
-                raise
+        print(f"[bootstrap_database] Applying schema from {schema_path}")
+        raw_sql = schema_path.read_text(encoding='utf-8')
+        statements = [stmt.strip() for stmt in raw_sql.split(";") if stmt.strip()]
+        conn = await asyncpg.connect(dsn=dsn)
+        try:
+            for statement in statements:
+                try:
+                    await conn.execute(statement)
+                except asyncpg.PostgresError as exc:
+                    text = str(exc).lower()
+                    if "create extension" in statement.lower() and "permission denied" in text:
+                        print(f"[bootstrap_database] Warning: extension creation skipped: {exc}")
+                        continue
+                    if "already exists" in text:
+                        continue
+                    raise
+        finally:
+            await conn.close()
 
 
 async def _needs_demo_seed(dsn: str) -> bool:
-    async with await asyncpg.connect(dsn=dsn) as conn:
+    conn = await asyncpg.connect(dsn=dsn)
+    try:
         exists = await conn.fetchval(
             "SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_schema = 'public' AND table_name = $1)",
             BOOTSTRAP_CHECK_TABLE,
@@ -78,6 +84,8 @@ async def _needs_demo_seed(dsn: str) -> bool:
             return True
         count = await conn.fetchval(f"SELECT COUNT(*) FROM {BOOTSTRAP_CHECK_TABLE}")
         return count == 0
+    finally:
+        await conn.close()
 
 
 def main() -> None:
