@@ -1,0 +1,753 @@
+{
+  "generated_at": "2026-04-04T18:48:50.924607",
+  "base_url": "http://localhost:3010",
+  "total": 93,
+  "passed": 93,
+  "failed": 0,
+  "results": [
+    {
+      "name": "login:public",
+      "method": "POST",
+      "path": "/v2/auth/login",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_dashboard",
+      "method": "GET",
+      "path": "/api/dashboard/public/69d1572477da1b58e8c0cda2/full",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_notifications",
+      "method": "GET",
+      "path": "/api/notifications/69d1572477da1b58e8c0cda2",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_health_records",
+      "method": "GET",
+      "path": "/api/health/records/69d1572477da1b58e8c0cda2",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_health_risk_history",
+      "method": "GET",
+      "path": "/api/health/risk/history/69d1572477da1b58e8c0cda2",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_donors",
+      "method": "GET",
+      "path": "/api/donors",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_donors_forecast",
+      "method": "GET",
+      "path": "/api/donors/forecast",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_family_members",
+      "method": "GET",
+      "path": "/api/family/members/69d1572477da1b58e8c0cda2",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_family_insights",
+      "method": "GET",
+      "path": "/api/family/insights/69d1572477da1b58e8c0cda2",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_agents_ask",
+      "method": "POST",
+      "path": "/v2/agents/ask",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_health_risk_v2",
+      "method": "POST",
+      "path": "/v2/ml/health-risk",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_health_risk_v1",
+      "method": "POST",
+      "path": "/api/predict_health_risk",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_user_forecast",
+      "method": "POST",
+      "path": "/api/predict_user_forecast",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_user_cluster",
+      "method": "POST",
+      "path": "/api/predict_user_cluster",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_check_compatibility",
+      "method": "POST",
+      "path": "/api/check_compatibility",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_analyze_report",
+      "method": "POST",
+      "path": "/api/analyze_report",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_sos_create",
+      "method": "POST",
+      "path": "/v2/public/sos",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_sos_get",
+      "method": "GET",
+      "path": "/v2/public/sos/69d15cd477da1b6c749958a7",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_donor_match",
+      "method": "POST",
+      "path": "/v2/public/donors/match",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_hospital_nearby",
+      "method": "GET",
+      "path": "/v2/hospital/nearby",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "public_resource_request",
+      "method": "POST",
+      "path": "/api/requests",
+      "status": 201,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "login:government",
+      "method": "POST",
+      "path": "/v2/auth/login",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "select-role:national_admin",
+      "method": "POST",
+      "path": "/v2/auth/select-role",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_command_seed",
+      "method": "POST",
+      "path": "/v2/government/command/seed",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_command_overview",
+      "method": "GET",
+      "path": "/v2/government/command/overview",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_decision_engine",
+      "method": "POST",
+      "path": "/v2/government/decision/engine",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_monitoring_summary",
+      "method": "GET",
+      "path": "/v2/government/monitoring/summary",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_monitoring_feed",
+      "method": "GET",
+      "path": "/v2/government/monitoring/feed",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_resources_hospitals",
+      "method": "GET",
+      "path": "/v2/government/resources/hospitals",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_resources_ambulances",
+      "method": "GET",
+      "path": "/v2/government/resources/ambulances",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_predictions_anomaly",
+      "method": "GET",
+      "path": "/v2/government/predictions/anomaly",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_eva_ask",
+      "method": "POST",
+      "path": "/v2/government/ai/ask",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_policy_list",
+      "method": "GET",
+      "path": "/v2/government/policy/actions",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_policy_create",
+      "method": "POST",
+      "path": "/v2/government/policy/actions",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_disaster_detect",
+      "method": "POST",
+      "path": "/v2/government/disaster/detect",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_disaster_trigger",
+      "method": "POST",
+      "path": "/v2/government/disaster/trigger",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_disaster_broadcast",
+      "method": "POST",
+      "path": "/v2/government/disaster/broadcast",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_disaster_recent",
+      "method": "GET",
+      "path": "/v2/government/disaster/recent",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_simulation_start",
+      "method": "POST",
+      "path": "/v2/government/simulation/start",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_simulation_multi_phase",
+      "method": "POST",
+      "path": "/v2/government/simulation/multi-phase",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_simulation_stop",
+      "method": "POST",
+      "path": "/v2/government/simulation/stop/867a1ff27add4464bc2c4d6ea024b1d0",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_simulation_after_action",
+      "method": "POST",
+      "path": "/v2/government/simulation/after-action/867a1ff27add4464bc2c4d6ea024b1d0",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_legacy_reports",
+      "method": "GET",
+      "path": "/api/government-ops/reports",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_legacy_compliance",
+      "method": "GET",
+      "path": "/api/government-ops/compliance",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_legacy_hospitals",
+      "method": "GET",
+      "path": "/api/government-ops/hospitals",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "gov_legacy_emergencies",
+      "method": "GET",
+      "path": "/api/government-ops/emergencies",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "login:hospital",
+      "method": "POST",
+      "path": "/v2/auth/login",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "select-role:finance",
+      "method": "POST",
+      "path": "/v2/auth/select-role",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_profile",
+      "method": "GET",
+      "path": "/api/hospital-communication/my-hospital/69d1572477da1b58e8c0ce6b",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_resources",
+      "method": "GET",
+      "path": "/api/hospital-ops/ceo/resources",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_bed_forecast",
+      "method": "GET",
+      "path": "/api/hospital-ops/ceo/beds/forecast",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_department_performance",
+      "method": "GET",
+      "path": "/api/hospital-ops/ceo/department-performance",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_emergency_feed",
+      "method": "GET",
+      "path": "/api/hospital-ops/emergency/feed",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_staff",
+      "method": "GET",
+      "path": "/api/hospital-ops/staff",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_staff_skills",
+      "method": "GET",
+      "path": "/api/hospital-ops/staff/skills/summary",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_staff_optimizer",
+      "method": "GET",
+      "path": "/api/hospital-ops/staff/optimizer",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_reports",
+      "method": "GET",
+      "path": "/api/hospital-ops/reports",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_reports_ingested",
+      "method": "GET",
+      "path": "/api/hospital-ops/reports/ingested",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_invoices",
+      "method": "GET",
+      "path": "/api/hospital-ops/finance/invoices",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_revenue",
+      "method": "GET",
+      "path": "/api/hospital-ops/finance/revenue",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_claims",
+      "method": "GET",
+      "path": "/api/hospital-ops/finance/claims",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_opd_appointments",
+      "method": "GET",
+      "path": "/api/hospital-ops/opd/appointments",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_opd_appointments_insights",
+      "method": "GET",
+      "path": "/api/hospital-ops/opd/appointments/insights",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_opd_doctors",
+      "method": "GET",
+      "path": "/api/hospital-ops/opd/doctors",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_opd_doctors_coverage",
+      "method": "GET",
+      "path": "/api/hospital-ops/opd/doctors/coverage",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_opd_consultations",
+      "method": "GET",
+      "path": "/api/hospital-ops/opd/consultations",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_opd_consultations_insights",
+      "method": "GET",
+      "path": "/api/hospital-ops/opd/consultations/insights",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_opd_queue",
+      "method": "GET",
+      "path": "/api/hospital-ops/opd/queue",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_icu_patients",
+      "method": "GET",
+      "path": "/api/hospital-ops/icu/patients",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_icu_alerts",
+      "method": "GET",
+      "path": "/api/hospital-ops/icu/alerts",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_icu_vitals",
+      "method": "GET",
+      "path": "/api/hospital-ops/icu/vitals",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_icu_risk",
+      "method": "POST",
+      "path": "/api/hospital-ops/icu/risk",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_radiology_requests",
+      "method": "GET",
+      "path": "/api/hospital-ops/radiology/requests",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_radiology_reports",
+      "method": "GET",
+      "path": "/api/hospital-ops/radiology/reports",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_ot_surgeries",
+      "method": "GET",
+      "path": "/api/hospital-ops/ot/surgeries",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_ot_allocations",
+      "method": "GET",
+      "path": "/api/hospital-ops/ot/allocations",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_equipment",
+      "method": "GET",
+      "path": "/api/hospital-ops/equipment",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_emergency_intake",
+      "method": "GET",
+      "path": "/api/hospital-ops/emergency/intake",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_bed_allocations",
+      "method": "GET",
+      "path": "/api/hospital-ops/emergency/bed-allocation",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_triage",
+      "method": "POST",
+      "path": "/api/hospital/triage",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_recovery",
+      "method": "POST",
+      "path": "/api/hospital/patient/recovery",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_stay",
+      "method": "POST",
+      "path": "/api/hospital/patient/stay",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_inventory_predict",
+      "method": "POST",
+      "path": "/api/hospital/inventory/predict",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_ai_eta",
+      "method": "POST",
+      "path": "/api/hosp/predict_eta",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_ai_bed_forecast",
+      "method": "POST",
+      "path": "/api/hosp/predict_bed_forecast",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_ai_staff_alloc",
+      "method": "POST",
+      "path": "/api/hosp/predict_staff_allocation",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "hospital_ai_disease_forecast",
+      "method": "POST",
+      "path": "/api/hosp/predict_disease_forecast",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "login:ambulance",
+      "method": "POST",
+      "path": "/v2/auth/login",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "ambulance_assignments",
+      "method": "GET",
+      "path": "/api/ambulance/assignments",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "ambulance_patient_info",
+      "method": "GET",
+      "path": "/api/ambulance/patient-info",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "ambulance_status",
+      "method": "GET",
+      "path": "/api/ambulance/emergency-status",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "ambulance_history",
+      "method": "GET",
+      "path": "/api/ambulance/history",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "ambulance_route",
+      "method": "GET",
+      "path": "/v2/route",
+      "status": 200,
+      "ok": true,
+      "detail": null
+    }
+  ]
+}

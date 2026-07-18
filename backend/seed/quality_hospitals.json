@@ -1,0 +1,5302 @@
+[
+  {
+    "hospital_id": "BLR-01",
+    "name": "Bengaluru General Hospital",
+    "regNumber": "KA-BLR-001",
+    "type": "Government",
+    "phone": "080-700001",
+    "email": "info@bengaluru-general-hospital.org",
+    "location": {
+      "lat": 12.9836,
+      "lng": 77.6016,
+      "address": "12 Bengaluru Central Road",
+      "city": "Bengaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 635,
+      "occupiedBeds": 412,
+      "availableBeds": 223
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1976,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.135313",
+    "updatedAt": "2026-04-02 09:44:09.135313",
+    "_id": "69ce3a6ab69d953c43ca1d9e"
+  },
+  {
+    "hospital_id": "BLR-02",
+    "name": "Bengaluru Medical College & Research Center",
+    "regNumber": "KA-BLR-002",
+    "type": "Teaching",
+    "phone": "080-700002",
+    "email": "info@bengaluru-medical-college---research-center.org",
+    "location": {
+      "lat": 12.9626,
+      "lng": 77.5836,
+      "address": "24 Bengaluru Central Road",
+      "city": "Bengaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 810,
+      "occupiedBeds": 550,
+      "availableBeds": 260
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1977,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.135313",
+    "updatedAt": "2026-04-02 09:44:09.135313",
+    "_id": "69ce3a6ab69d953c43ca1d9f"
+  },
+  {
+    "hospital_id": "BLR-03",
+    "name": "Bengaluru Heart Institute",
+    "regNumber": "KA-BLR-003",
+    "type": "Specialty",
+    "phone": "080-700003",
+    "email": "info@bengaluru-heart-institute.org",
+    "location": {
+      "lat": 12.9866,
+      "lng": 77.5886,
+      "address": "36 Bengaluru Central Road",
+      "city": "Bengaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 305,
+      "occupiedBeds": 216,
+      "availableBeds": 89
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1978,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.135313",
+    "updatedAt": "2026-04-02 09:44:09.135313",
+    "_id": "69ce3a6ab69d953c43ca1da0"
+  },
+  {
+    "hospital_id": "BLR-04",
+    "name": "Bengaluru Children's Hospital",
+    "regNumber": "KA-BLR-004",
+    "type": "Specialty",
+    "phone": "080-700004",
+    "email": "info@bengaluru-children-s-hospital.org",
+    "location": {
+      "lat": 12.9586,
+      "lng": 77.6036,
+      "address": "48 Bengaluru Central Road",
+      "city": "Bengaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 220,
+      "occupiedBeds": 162,
+      "availableBeds": 58
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1979,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.135313",
+    "updatedAt": "2026-04-02 09:44:09.135313",
+    "_id": "69ce3a6ab69d953c43ca1da1"
+  },
+  {
+    "hospital_id": "BLR-05",
+    "name": "Bengaluru Multi-Specialty Center",
+    "regNumber": "KA-BLR-005",
+    "type": "Private",
+    "phone": "080-700005",
+    "email": "info@bengaluru-multi-specialty-center.org",
+    "location": {
+      "lat": 12.9776,
+      "lng": 77.6086,
+      "address": "60 Bengaluru Central Road",
+      "city": "Bengaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 435,
+      "occupiedBeds": 334,
+      "availableBeds": 101
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1980,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.135313",
+    "updatedAt": "2026-04-02 09:44:09.135313",
+    "_id": "69ce3a6ab69d953c43ca1da2"
+  },
+  {
+    "hospital_id": "MYS-01",
+    "name": "Mysuru General Hospital",
+    "regNumber": "KA-MYS-006",
+    "type": "Government",
+    "phone": "080-700006",
+    "email": "info@mysuru-general-hospital.org",
+    "location": {
+      "lat": 12.3078,
+      "lng": 76.6464,
+      "address": "12 Mysuru Central Road",
+      "city": "Mysuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 650,
+      "occupiedBeds": 422,
+      "availableBeds": 228
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1981,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.135313",
+    "updatedAt": "2026-04-02 09:44:09.135313",
+    "_id": "69ce3a6ab69d953c43ca1da3"
+  },
+  {
+    "hospital_id": "MYS-02",
+    "name": "Mysuru Medical College & Research Center",
+    "regNumber": "KA-MYS-007",
+    "type": "Teaching",
+    "phone": "080-700007",
+    "email": "info@mysuru-medical-college---research-center.org",
+    "location": {
+      "lat": 12.2868,
+      "lng": 76.6284,
+      "address": "24 Mysuru Central Road",
+      "city": "Mysuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 825,
+      "occupiedBeds": 561,
+      "availableBeds": 264
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1982,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.135313",
+    "updatedAt": "2026-04-02 09:44:09.135313",
+    "_id": "69ce3a6ab69d953c43ca1da4"
+  },
+  {
+    "hospital_id": "MYS-03",
+    "name": "Mysuru Heart Institute",
+    "regNumber": "KA-MYS-008",
+    "type": "Specialty",
+    "phone": "080-700008",
+    "email": "info@mysuru-heart-institute.org",
+    "location": {
+      "lat": 12.3108,
+      "lng": 76.6334,
+      "address": "36 Mysuru Central Road",
+      "city": "Mysuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 260,
+      "occupiedBeds": 184,
+      "availableBeds": 76
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1983,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.135313",
+    "updatedAt": "2026-04-02 09:44:09.135313",
+    "_id": "69ce3a6ab69d953c43ca1da5"
+  },
+  {
+    "hospital_id": "MYS-04",
+    "name": "Mysuru Children's Hospital",
+    "regNumber": "KA-MYS-009",
+    "type": "Specialty",
+    "phone": "080-700009",
+    "email": "info@mysuru-children-s-hospital.org",
+    "location": {
+      "lat": 12.2828,
+      "lng": 76.6484,
+      "address": "48 Mysuru Central Road",
+      "city": "Mysuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 235,
+      "occupiedBeds": 173,
+      "availableBeds": 62
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1984,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.135313",
+    "updatedAt": "2026-04-02 09:44:09.135313",
+    "_id": "69ce3a6ab69d953c43ca1da6"
+  },
+  {
+    "hospital_id": "MYS-05",
+    "name": "Mysuru Multi-Specialty Center",
+    "regNumber": "KA-MYS-010",
+    "type": "Private",
+    "phone": "080-700010",
+    "email": "info@mysuru-multi-specialty-center.org",
+    "location": {
+      "lat": 12.3018,
+      "lng": 76.6534,
+      "address": "60 Mysuru Central Road",
+      "city": "Mysuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 450,
+      "occupiedBeds": 346,
+      "availableBeds": 104
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1985,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1da7"
+  },
+  {
+    "hospital_id": "MNG-01",
+    "name": "Mangaluru General Hospital",
+    "regNumber": "KA-MNG-011",
+    "type": "Government",
+    "phone": "080-700011",
+    "email": "info@mangaluru-general-hospital.org",
+    "location": {
+      "lat": 12.9261,
+      "lng": 74.863,
+      "address": "12 Mangaluru Central Road",
+      "city": "Mangaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 665,
+      "occupiedBeds": 432,
+      "availableBeds": 233
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1986,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1da8"
+  },
+  {
+    "hospital_id": "MNG-02",
+    "name": "Mangaluru Medical College & Research Center",
+    "regNumber": "KA-MNG-012",
+    "type": "Teaching",
+    "phone": "080-700012",
+    "email": "info@mangaluru-medical-college---research-center.org",
+    "location": {
+      "lat": 12.9051,
+      "lng": 74.845,
+      "address": "24 Mangaluru Central Road",
+      "city": "Mangaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 780,
+      "occupiedBeds": 530,
+      "availableBeds": 250
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1987,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1da9"
+  },
+  {
+    "hospital_id": "MNG-03",
+    "name": "Mangaluru Heart Institute",
+    "regNumber": "KA-MNG-013",
+    "type": "Specialty",
+    "phone": "080-700013",
+    "email": "info@mangaluru-heart-institute.org",
+    "location": {
+      "lat": 12.9291,
+      "lng": 74.85,
+      "address": "36 Mangaluru Central Road",
+      "city": "Mangaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 275,
+      "occupiedBeds": 195,
+      "availableBeds": 80
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1988,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1daa"
+  },
+  {
+    "hospital_id": "MNG-04",
+    "name": "Mangaluru Children's Hospital",
+    "regNumber": "KA-MNG-014",
+    "type": "Specialty",
+    "phone": "080-700014",
+    "email": "info@mangaluru-children-s-hospital.org",
+    "location": {
+      "lat": 12.9011,
+      "lng": 74.865,
+      "address": "48 Mangaluru Central Road",
+      "city": "Mangaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 250,
+      "occupiedBeds": 185,
+      "availableBeds": 65
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1989,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dab"
+  },
+  {
+    "hospital_id": "MNG-05",
+    "name": "Mangaluru Multi-Specialty Center",
+    "regNumber": "KA-MNG-015",
+    "type": "Private",
+    "phone": "080-700015",
+    "email": "info@mangaluru-multi-specialty-center.org",
+    "location": {
+      "lat": 12.9201,
+      "lng": 74.87,
+      "address": "60 Mangaluru Central Road",
+      "city": "Mangaluru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 465,
+      "occupiedBeds": 358,
+      "availableBeds": 107
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1990,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dac"
+  },
+  {
+    "hospital_id": "HBL-01",
+    "name": "Hubballi General Hospital",
+    "regNumber": "KA-HBL-016",
+    "type": "Government",
+    "phone": "080-700016",
+    "email": "info@hubballi-general-hospital.org",
+    "location": {
+      "lat": 15.3767,
+      "lng": 75.131,
+      "address": "12 Hubballi Central Road",
+      "city": "Hubballi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 620,
+      "occupiedBeds": 403,
+      "availableBeds": 217
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1991,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dad"
+  },
+  {
+    "hospital_id": "HBL-02",
+    "name": "Hubballi Medical College & Research Center",
+    "regNumber": "KA-HBL-017",
+    "type": "Teaching",
+    "phone": "080-700017",
+    "email": "info@hubballi-medical-college---research-center.org",
+    "location": {
+      "lat": 15.3557,
+      "lng": 75.113,
+      "address": "24 Hubballi Central Road",
+      "city": "Hubballi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 795,
+      "occupiedBeds": 540,
+      "availableBeds": 255
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1992,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dae"
+  },
+  {
+    "hospital_id": "HBL-03",
+    "name": "Hubballi Heart Institute",
+    "regNumber": "KA-HBL-018",
+    "type": "Specialty",
+    "phone": "080-700018",
+    "email": "info@hubballi-heart-institute.org",
+    "location": {
+      "lat": 15.3797,
+      "lng": 75.118,
+      "address": "36 Hubballi Central Road",
+      "city": "Hubballi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 290,
+      "occupiedBeds": 205,
+      "availableBeds": 85
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1993,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1daf"
+  },
+  {
+    "hospital_id": "HBL-04",
+    "name": "Hubballi Children's Hospital",
+    "regNumber": "KA-HBL-019",
+    "type": "Specialty",
+    "phone": "080-700019",
+    "email": "info@hubballi-children-s-hospital.org",
+    "location": {
+      "lat": 15.3517,
+      "lng": 75.133,
+      "address": "48 Hubballi Central Road",
+      "city": "Hubballi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 265,
+      "occupiedBeds": 196,
+      "availableBeds": 69
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1994,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db0"
+  },
+  {
+    "hospital_id": "HBL-05",
+    "name": "Hubballi Multi-Specialty Center",
+    "regNumber": "KA-HBL-020",
+    "type": "Private",
+    "phone": "080-700020",
+    "email": "info@hubballi-multi-specialty-center.org",
+    "location": {
+      "lat": 15.3707,
+      "lng": 75.138,
+      "address": "60 Hubballi Central Road",
+      "city": "Hubballi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 420,
+      "occupiedBeds": 323,
+      "availableBeds": 97
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1995,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db1"
+  },
+  {
+    "hospital_id": "BLG-01",
+    "name": "Belagavi General Hospital",
+    "regNumber": "KA-BLG-021",
+    "type": "Government",
+    "phone": "080-700021",
+    "email": "info@belagavi-general-hospital.org",
+    "location": {
+      "lat": 15.8617,
+      "lng": 74.5047,
+      "address": "12 Belagavi Central Road",
+      "city": "Belagavi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 635,
+      "occupiedBeds": 412,
+      "availableBeds": 223
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1996,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db2"
+  },
+  {
+    "hospital_id": "BLG-02",
+    "name": "Belagavi Medical College & Research Center",
+    "regNumber": "KA-BLG-022",
+    "type": "Teaching",
+    "phone": "080-700022",
+    "email": "info@belagavi-medical-college---research-center.org",
+    "location": {
+      "lat": 15.8407,
+      "lng": 74.4867,
+      "address": "24 Belagavi Central Road",
+      "city": "Belagavi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 810,
+      "occupiedBeds": 550,
+      "availableBeds": 260
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1997,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db3"
+  },
+  {
+    "hospital_id": "BLG-03",
+    "name": "Belagavi Heart Institute",
+    "regNumber": "KA-BLG-023",
+    "type": "Specialty",
+    "phone": "080-700023",
+    "email": "info@belagavi-heart-institute.org",
+    "location": {
+      "lat": 15.8647,
+      "lng": 74.4917,
+      "address": "36 Belagavi Central Road",
+      "city": "Belagavi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 305,
+      "occupiedBeds": 216,
+      "availableBeds": 89
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1998,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db4"
+  },
+  {
+    "hospital_id": "BLG-04",
+    "name": "Belagavi Children's Hospital",
+    "regNumber": "KA-BLG-024",
+    "type": "Specialty",
+    "phone": "080-700024",
+    "email": "info@belagavi-children-s-hospital.org",
+    "location": {
+      "lat": 15.8367,
+      "lng": 74.5067,
+      "address": "48 Belagavi Central Road",
+      "city": "Belagavi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 220,
+      "occupiedBeds": 162,
+      "availableBeds": 58
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1999,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db5"
+  },
+  {
+    "hospital_id": "BLG-05",
+    "name": "Belagavi Multi-Specialty Center",
+    "regNumber": "KA-BLG-025",
+    "type": "Private",
+    "phone": "080-700025",
+    "email": "info@belagavi-multi-specialty-center.org",
+    "location": {
+      "lat": 15.8557,
+      "lng": 74.5117,
+      "address": "60 Belagavi Central Road",
+      "city": "Belagavi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 435,
+      "occupiedBeds": 334,
+      "availableBeds": 101
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 2000,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db6"
+  },
+  {
+    "hospital_id": "DVG-01",
+    "name": "Davanagere General Hospital",
+    "regNumber": "KA-DVG-026",
+    "type": "Government",
+    "phone": "080-700026",
+    "email": "info@davanagere-general-hospital.org",
+    "location": {
+      "lat": 14.4764,
+      "lng": 75.9288,
+      "address": "12 Davanagere Central Road",
+      "city": "Davanagere",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 650,
+      "occupiedBeds": 422,
+      "availableBeds": 228
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 2001,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db7"
+  },
+  {
+    "hospital_id": "DVG-02",
+    "name": "Davanagere Medical College & Research Center",
+    "regNumber": "KA-DVG-027",
+    "type": "Teaching",
+    "phone": "080-700027",
+    "email": "info@davanagere-medical-college---research-center.org",
+    "location": {
+      "lat": 14.4554,
+      "lng": 75.9108,
+      "address": "24 Davanagere Central Road",
+      "city": "Davanagere",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 825,
+      "occupiedBeds": 561,
+      "availableBeds": 264
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 2002,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db8"
+  },
+  {
+    "hospital_id": "DVG-03",
+    "name": "Davanagere Heart Institute",
+    "regNumber": "KA-DVG-028",
+    "type": "Specialty",
+    "phone": "080-700028",
+    "email": "info@davanagere-heart-institute.org",
+    "location": {
+      "lat": 14.4794,
+      "lng": 75.9158,
+      "address": "36 Davanagere Central Road",
+      "city": "Davanagere",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 260,
+      "occupiedBeds": 184,
+      "availableBeds": 76
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 2003,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1db9"
+  },
+  {
+    "hospital_id": "DVG-04",
+    "name": "Davanagere Children's Hospital",
+    "regNumber": "KA-DVG-029",
+    "type": "Specialty",
+    "phone": "080-700029",
+    "email": "info@davanagere-children-s-hospital.org",
+    "location": {
+      "lat": 14.4514,
+      "lng": 75.9308,
+      "address": "48 Davanagere Central Road",
+      "city": "Davanagere",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 235,
+      "occupiedBeds": 173,
+      "availableBeds": 62
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 2004,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dba"
+  },
+  {
+    "hospital_id": "DVG-05",
+    "name": "Davanagere Multi-Specialty Center",
+    "regNumber": "KA-DVG-030",
+    "type": "Private",
+    "phone": "080-700030",
+    "email": "info@davanagere-multi-specialty-center.org",
+    "location": {
+      "lat": 14.4704,
+      "lng": 75.9358,
+      "address": "60 Davanagere Central Road",
+      "city": "Davanagere",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 450,
+      "occupiedBeds": 346,
+      "availableBeds": 104
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1975,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dbb"
+  },
+  {
+    "hospital_id": "SHM-01",
+    "name": "Shivamogga General Hospital",
+    "regNumber": "KA-SHM-031",
+    "type": "Government",
+    "phone": "080-700031",
+    "email": "info@shivamogga-general-hospital.org",
+    "location": {
+      "lat": 13.9419,
+      "lng": 75.5751,
+      "address": "12 Shivamogga Central Road",
+      "city": "Shivamogga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 665,
+      "occupiedBeds": 432,
+      "availableBeds": 233
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1976,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dbc"
+  },
+  {
+    "hospital_id": "SHM-02",
+    "name": "Shivamogga Medical College & Research Center",
+    "regNumber": "KA-SHM-032",
+    "type": "Teaching",
+    "phone": "080-700032",
+    "email": "info@shivamogga-medical-college---research-center.org",
+    "location": {
+      "lat": 13.9209,
+      "lng": 75.5571,
+      "address": "24 Shivamogga Central Road",
+      "city": "Shivamogga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 780,
+      "occupiedBeds": 530,
+      "availableBeds": 250
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1977,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dbd"
+  },
+  {
+    "hospital_id": "SHM-03",
+    "name": "Shivamogga Heart Institute",
+    "regNumber": "KA-SHM-033",
+    "type": "Specialty",
+    "phone": "080-700033",
+    "email": "info@shivamogga-heart-institute.org",
+    "location": {
+      "lat": 13.9449,
+      "lng": 75.5621,
+      "address": "36 Shivamogga Central Road",
+      "city": "Shivamogga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 275,
+      "occupiedBeds": 195,
+      "availableBeds": 80
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1978,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dbe"
+  },
+  {
+    "hospital_id": "SHM-04",
+    "name": "Shivamogga Children's Hospital",
+    "regNumber": "KA-SHM-034",
+    "type": "Specialty",
+    "phone": "080-700034",
+    "email": "info@shivamogga-children-s-hospital.org",
+    "location": {
+      "lat": 13.9169,
+      "lng": 75.5771,
+      "address": "48 Shivamogga Central Road",
+      "city": "Shivamogga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 250,
+      "occupiedBeds": 185,
+      "availableBeds": 65
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1979,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dbf"
+  },
+  {
+    "hospital_id": "SHM-05",
+    "name": "Shivamogga Multi-Specialty Center",
+    "regNumber": "KA-SHM-035",
+    "type": "Private",
+    "phone": "080-700035",
+    "email": "info@shivamogga-multi-specialty-center.org",
+    "location": {
+      "lat": 13.9359,
+      "lng": 75.5821,
+      "address": "60 Shivamogga Central Road",
+      "city": "Shivamogga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 465,
+      "occupiedBeds": 358,
+      "availableBeds": 107
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1980,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc0"
+  },
+  {
+    "hospital_id": "TMR-01",
+    "name": "Tumakuru General Hospital",
+    "regNumber": "KA-TMR-036",
+    "type": "Government",
+    "phone": "080-700036",
+    "email": "info@tumakuru-general-hospital.org",
+    "location": {
+      "lat": 13.3529,
+      "lng": 77.108,
+      "address": "12 Tumakuru Central Road",
+      "city": "Tumakuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 620,
+      "occupiedBeds": 403,
+      "availableBeds": 217
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1981,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc1"
+  },
+  {
+    "hospital_id": "TMR-02",
+    "name": "Tumakuru Medical College & Research Center",
+    "regNumber": "KA-TMR-037",
+    "type": "Teaching",
+    "phone": "080-700037",
+    "email": "info@tumakuru-medical-college---research-center.org",
+    "location": {
+      "lat": 13.3319,
+      "lng": 77.09,
+      "address": "24 Tumakuru Central Road",
+      "city": "Tumakuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 795,
+      "occupiedBeds": 540,
+      "availableBeds": 255
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1982,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc2"
+  },
+  {
+    "hospital_id": "TMR-03",
+    "name": "Tumakuru Heart Institute",
+    "regNumber": "KA-TMR-038",
+    "type": "Specialty",
+    "phone": "080-700038",
+    "email": "info@tumakuru-heart-institute.org",
+    "location": {
+      "lat": 13.3559,
+      "lng": 77.095,
+      "address": "36 Tumakuru Central Road",
+      "city": "Tumakuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 290,
+      "occupiedBeds": 205,
+      "availableBeds": 85
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1983,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc3"
+  },
+  {
+    "hospital_id": "TMR-04",
+    "name": "Tumakuru Children's Hospital",
+    "regNumber": "KA-TMR-039",
+    "type": "Specialty",
+    "phone": "080-700039",
+    "email": "info@tumakuru-children-s-hospital.org",
+    "location": {
+      "lat": 13.3279,
+      "lng": 77.11,
+      "address": "48 Tumakuru Central Road",
+      "city": "Tumakuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 265,
+      "occupiedBeds": 196,
+      "availableBeds": 69
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1984,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc4"
+  },
+  {
+    "hospital_id": "TMR-05",
+    "name": "Tumakuru Multi-Specialty Center",
+    "regNumber": "KA-TMR-040",
+    "type": "Private",
+    "phone": "080-700040",
+    "email": "info@tumakuru-multi-specialty-center.org",
+    "location": {
+      "lat": 13.3469,
+      "lng": 77.115,
+      "address": "60 Tumakuru Central Road",
+      "city": "Tumakuru",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 420,
+      "occupiedBeds": 323,
+      "availableBeds": 97
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1985,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc5"
+  },
+  {
+    "hospital_id": "HSN-01",
+    "name": "Hassan General Hospital",
+    "regNumber": "KA-HSN-041",
+    "type": "Government",
+    "phone": "080-700041",
+    "email": "info@hassan-general-hospital.org",
+    "location": {
+      "lat": 13.0192,
+      "lng": 76.1032,
+      "address": "12 Hassan Central Road",
+      "city": "Hassan",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 635,
+      "occupiedBeds": 412,
+      "availableBeds": 223
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1986,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc6"
+  },
+  {
+    "hospital_id": "HSN-02",
+    "name": "Hassan Medical College & Research Center",
+    "regNumber": "KA-HSN-042",
+    "type": "Teaching",
+    "phone": "080-700042",
+    "email": "info@hassan-medical-college---research-center.org",
+    "location": {
+      "lat": 12.9982,
+      "lng": 76.0852,
+      "address": "24 Hassan Central Road",
+      "city": "Hassan",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 810,
+      "occupiedBeds": 550,
+      "availableBeds": 260
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1987,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc7"
+  },
+  {
+    "hospital_id": "HSN-03",
+    "name": "Hassan Heart Institute",
+    "regNumber": "KA-HSN-043",
+    "type": "Specialty",
+    "phone": "080-700043",
+    "email": "info@hassan-heart-institute.org",
+    "location": {
+      "lat": 13.0222,
+      "lng": 76.0902,
+      "address": "36 Hassan Central Road",
+      "city": "Hassan",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 305,
+      "occupiedBeds": 216,
+      "availableBeds": 89
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1988,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc8"
+  },
+  {
+    "hospital_id": "HSN-04",
+    "name": "Hassan Children's Hospital",
+    "regNumber": "KA-HSN-044",
+    "type": "Specialty",
+    "phone": "080-700044",
+    "email": "info@hassan-children-s-hospital.org",
+    "location": {
+      "lat": 12.9942,
+      "lng": 76.1052,
+      "address": "48 Hassan Central Road",
+      "city": "Hassan",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 220,
+      "occupiedBeds": 162,
+      "availableBeds": 58
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1989,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dc9"
+  },
+  {
+    "hospital_id": "HSN-05",
+    "name": "Hassan Multi-Specialty Center",
+    "regNumber": "KA-HSN-045",
+    "type": "Private",
+    "phone": "080-700045",
+    "email": "info@hassan-multi-specialty-center.org",
+    "location": {
+      "lat": 13.0132,
+      "lng": 76.1102,
+      "address": "60 Hassan Central Road",
+      "city": "Hassan",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 435,
+      "occupiedBeds": 334,
+      "availableBeds": 101
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1990,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dca"
+  },
+  {
+    "hospital_id": "MDY-01",
+    "name": "Mandya General Hospital",
+    "regNumber": "KA-MDY-046",
+    "type": "Government",
+    "phone": "080-700046",
+    "email": "info@mandya-general-hospital.org",
+    "location": {
+      "lat": 12.5359,
+      "lng": 76.9028,
+      "address": "12 Mandya Central Road",
+      "city": "Mandya",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 650,
+      "occupiedBeds": 422,
+      "availableBeds": 228
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1991,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dcb"
+  },
+  {
+    "hospital_id": "MDY-02",
+    "name": "Mandya Medical College & Research Center",
+    "regNumber": "KA-MDY-047",
+    "type": "Teaching",
+    "phone": "080-700047",
+    "email": "info@mandya-medical-college---research-center.org",
+    "location": {
+      "lat": 12.5149,
+      "lng": 76.8848,
+      "address": "24 Mandya Central Road",
+      "city": "Mandya",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 825,
+      "occupiedBeds": 561,
+      "availableBeds": 264
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1992,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dcc"
+  },
+  {
+    "hospital_id": "MDY-03",
+    "name": "Mandya Heart Institute",
+    "regNumber": "KA-MDY-048",
+    "type": "Specialty",
+    "phone": "080-700048",
+    "email": "info@mandya-heart-institute.org",
+    "location": {
+      "lat": 12.5389,
+      "lng": 76.8898,
+      "address": "36 Mandya Central Road",
+      "city": "Mandya",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 260,
+      "occupiedBeds": 184,
+      "availableBeds": 76
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1993,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dcd"
+  },
+  {
+    "hospital_id": "MDY-04",
+    "name": "Mandya Children's Hospital",
+    "regNumber": "KA-MDY-049",
+    "type": "Specialty",
+    "phone": "080-700049",
+    "email": "info@mandya-children-s-hospital.org",
+    "location": {
+      "lat": 12.5109,
+      "lng": 76.9048,
+      "address": "48 Mandya Central Road",
+      "city": "Mandya",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 235,
+      "occupiedBeds": 173,
+      "availableBeds": 62
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1994,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dce"
+  },
+  {
+    "hospital_id": "MDY-05",
+    "name": "Mandya Multi-Specialty Center",
+    "regNumber": "KA-MDY-050",
+    "type": "Private",
+    "phone": "080-700050",
+    "email": "info@mandya-multi-specialty-center.org",
+    "location": {
+      "lat": 12.5299,
+      "lng": 76.9098,
+      "address": "60 Mandya Central Road",
+      "city": "Mandya",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 450,
+      "occupiedBeds": 346,
+      "availableBeds": 104
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1995,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dcf"
+  },
+  {
+    "hospital_id": "BJP-01",
+    "name": "Vijayapura General Hospital",
+    "regNumber": "KA-BJP-051",
+    "type": "Government",
+    "phone": "080-700051",
+    "email": "info@vijayapura-general-hospital.org",
+    "location": {
+      "lat": 16.8422,
+      "lng": 75.717,
+      "address": "12 Vijayapura Central Road",
+      "city": "Vijayapura",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 665,
+      "occupiedBeds": 432,
+      "availableBeds": 233
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1996,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd0"
+  },
+  {
+    "hospital_id": "BJP-02",
+    "name": "Vijayapura Medical College & Research Center",
+    "regNumber": "KA-BJP-052",
+    "type": "Teaching",
+    "phone": "080-700052",
+    "email": "info@vijayapura-medical-college---research-center.org",
+    "location": {
+      "lat": 16.8212,
+      "lng": 75.699,
+      "address": "24 Vijayapura Central Road",
+      "city": "Vijayapura",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 780,
+      "occupiedBeds": 530,
+      "availableBeds": 250
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1997,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd1"
+  },
+  {
+    "hospital_id": "BJP-03",
+    "name": "Vijayapura Heart Institute",
+    "regNumber": "KA-BJP-053",
+    "type": "Specialty",
+    "phone": "080-700053",
+    "email": "info@vijayapura-heart-institute.org",
+    "location": {
+      "lat": 16.8452,
+      "lng": 75.704,
+      "address": "36 Vijayapura Central Road",
+      "city": "Vijayapura",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 275,
+      "occupiedBeds": 195,
+      "availableBeds": 80
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1998,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd2"
+  },
+  {
+    "hospital_id": "BJP-04",
+    "name": "Vijayapura Children's Hospital",
+    "regNumber": "KA-BJP-054",
+    "type": "Specialty",
+    "phone": "080-700054",
+    "email": "info@vijayapura-children-s-hospital.org",
+    "location": {
+      "lat": 16.8172,
+      "lng": 75.719,
+      "address": "48 Vijayapura Central Road",
+      "city": "Vijayapura",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 250,
+      "occupiedBeds": 185,
+      "availableBeds": 65
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1999,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd3"
+  },
+  {
+    "hospital_id": "BJP-05",
+    "name": "Vijayapura Multi-Specialty Center",
+    "regNumber": "KA-BJP-055",
+    "type": "Private",
+    "phone": "080-700055",
+    "email": "info@vijayapura-multi-specialty-center.org",
+    "location": {
+      "lat": 16.8362,
+      "lng": 75.724,
+      "address": "60 Vijayapura Central Road",
+      "city": "Vijayapura",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 465,
+      "occupiedBeds": 358,
+      "availableBeds": 107
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 2000,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd4"
+  },
+  {
+    "hospital_id": "BDR-01",
+    "name": "Bidar General Hospital",
+    "regNumber": "KA-BDR-056",
+    "type": "Government",
+    "phone": "080-700056",
+    "email": "info@bidar-general-hospital.org",
+    "location": {
+      "lat": 17.9269,
+      "lng": 77.5116,
+      "address": "12 Bidar Central Road",
+      "city": "Bidar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 620,
+      "occupiedBeds": 403,
+      "availableBeds": 217
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 2001,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd5"
+  },
+  {
+    "hospital_id": "BDR-02",
+    "name": "Bidar Medical College & Research Center",
+    "regNumber": "KA-BDR-057",
+    "type": "Teaching",
+    "phone": "080-700057",
+    "email": "info@bidar-medical-college---research-center.org",
+    "location": {
+      "lat": 17.9059,
+      "lng": 77.4936,
+      "address": "24 Bidar Central Road",
+      "city": "Bidar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 795,
+      "occupiedBeds": 540,
+      "availableBeds": 255
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 2002,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd6"
+  },
+  {
+    "hospital_id": "BDR-03",
+    "name": "Bidar Heart Institute",
+    "regNumber": "KA-BDR-058",
+    "type": "Specialty",
+    "phone": "080-700058",
+    "email": "info@bidar-heart-institute.org",
+    "location": {
+      "lat": 17.9299,
+      "lng": 77.4986,
+      "address": "36 Bidar Central Road",
+      "city": "Bidar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 290,
+      "occupiedBeds": 205,
+      "availableBeds": 85
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 2003,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd7"
+  },
+  {
+    "hospital_id": "BDR-04",
+    "name": "Bidar Children's Hospital",
+    "regNumber": "KA-BDR-059",
+    "type": "Specialty",
+    "phone": "080-700059",
+    "email": "info@bidar-children-s-hospital.org",
+    "location": {
+      "lat": 17.9019,
+      "lng": 77.5136,
+      "address": "48 Bidar Central Road",
+      "city": "Bidar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 265,
+      "occupiedBeds": 196,
+      "availableBeds": 69
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 2004,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd8"
+  },
+  {
+    "hospital_id": "BDR-05",
+    "name": "Bidar Multi-Specialty Center",
+    "regNumber": "KA-BDR-060",
+    "type": "Private",
+    "phone": "080-700060",
+    "email": "info@bidar-multi-specialty-center.org",
+    "location": {
+      "lat": 17.9209,
+      "lng": 77.5186,
+      "address": "60 Bidar Central Road",
+      "city": "Bidar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 420,
+      "occupiedBeds": 323,
+      "availableBeds": 97
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1975,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dd9"
+  },
+  {
+    "hospital_id": "KLR-01",
+    "name": "Kalaburagi General Hospital",
+    "regNumber": "KA-KLR-061",
+    "type": "Government",
+    "phone": "080-700061",
+    "email": "info@kalaburagi-general-hospital.org",
+    "location": {
+      "lat": 17.3417,
+      "lng": 76.8413,
+      "address": "12 Kalaburagi Central Road",
+      "city": "Kalaburagi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 635,
+      "occupiedBeds": 412,
+      "availableBeds": 223
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1976,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dda"
+  },
+  {
+    "hospital_id": "KLR-02",
+    "name": "Kalaburagi Medical College & Research Center",
+    "regNumber": "KA-KLR-062",
+    "type": "Teaching",
+    "phone": "080-700062",
+    "email": "info@kalaburagi-medical-college---research-center.org",
+    "location": {
+      "lat": 17.3207,
+      "lng": 76.8233,
+      "address": "24 Kalaburagi Central Road",
+      "city": "Kalaburagi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 810,
+      "occupiedBeds": 550,
+      "availableBeds": 260
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1977,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1ddb"
+  },
+  {
+    "hospital_id": "KLR-03",
+    "name": "Kalaburagi Heart Institute",
+    "regNumber": "KA-KLR-063",
+    "type": "Specialty",
+    "phone": "080-700063",
+    "email": "info@kalaburagi-heart-institute.org",
+    "location": {
+      "lat": 17.3447,
+      "lng": 76.8283,
+      "address": "36 Kalaburagi Central Road",
+      "city": "Kalaburagi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 305,
+      "occupiedBeds": 216,
+      "availableBeds": 89
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1978,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1ddc"
+  },
+  {
+    "hospital_id": "KLR-04",
+    "name": "Kalaburagi Children's Hospital",
+    "regNumber": "KA-KLR-064",
+    "type": "Specialty",
+    "phone": "080-700064",
+    "email": "info@kalaburagi-children-s-hospital.org",
+    "location": {
+      "lat": 17.3167,
+      "lng": 76.8433,
+      "address": "48 Kalaburagi Central Road",
+      "city": "Kalaburagi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 220,
+      "occupiedBeds": 162,
+      "availableBeds": 58
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1979,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1ddd"
+  },
+  {
+    "hospital_id": "KLR-05",
+    "name": "Kalaburagi Multi-Specialty Center",
+    "regNumber": "KA-KLR-065",
+    "type": "Private",
+    "phone": "080-700065",
+    "email": "info@kalaburagi-multi-specialty-center.org",
+    "location": {
+      "lat": 17.3357,
+      "lng": 76.8483,
+      "address": "60 Kalaburagi Central Road",
+      "city": "Kalaburagi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 435,
+      "occupiedBeds": 334,
+      "availableBeds": 101
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1980,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1dde"
+  },
+  {
+    "hospital_id": "RCR-01",
+    "name": "Raichur General Hospital",
+    "regNumber": "KA-RCR-066",
+    "type": "Government",
+    "phone": "080-700066",
+    "email": "info@raichur-general-hospital.org",
+    "location": {
+      "lat": 16.2196,
+      "lng": 77.3626,
+      "address": "12 Raichur Central Road",
+      "city": "Raichur",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 650,
+      "occupiedBeds": 422,
+      "availableBeds": 228
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1981,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1ddf"
+  },
+  {
+    "hospital_id": "RCR-02",
+    "name": "Raichur Medical College & Research Center",
+    "regNumber": "KA-RCR-067",
+    "type": "Teaching",
+    "phone": "080-700067",
+    "email": "info@raichur-medical-college---research-center.org",
+    "location": {
+      "lat": 16.1986,
+      "lng": 77.3446,
+      "address": "24 Raichur Central Road",
+      "city": "Raichur",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 825,
+      "occupiedBeds": 561,
+      "availableBeds": 264
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1982,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1de0"
+  },
+  {
+    "hospital_id": "RCR-03",
+    "name": "Raichur Heart Institute",
+    "regNumber": "KA-RCR-068",
+    "type": "Specialty",
+    "phone": "080-700068",
+    "email": "info@raichur-heart-institute.org",
+    "location": {
+      "lat": 16.2226,
+      "lng": 77.3496,
+      "address": "36 Raichur Central Road",
+      "city": "Raichur",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 260,
+      "occupiedBeds": 184,
+      "availableBeds": 76
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1983,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.136311",
+    "updatedAt": "2026-04-02 09:44:09.136311",
+    "_id": "69ce3a6ab69d953c43ca1de1"
+  },
+  {
+    "hospital_id": "RCR-04",
+    "name": "Raichur Children's Hospital",
+    "regNumber": "KA-RCR-069",
+    "type": "Specialty",
+    "phone": "080-700069",
+    "email": "info@raichur-children-s-hospital.org",
+    "location": {
+      "lat": 16.1946,
+      "lng": 77.3646,
+      "address": "48 Raichur Central Road",
+      "city": "Raichur",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 235,
+      "occupiedBeds": 173,
+      "availableBeds": 62
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1984,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1de2"
+  },
+  {
+    "hospital_id": "RCR-05",
+    "name": "Raichur Multi-Specialty Center",
+    "regNumber": "KA-RCR-070",
+    "type": "Private",
+    "phone": "080-700070",
+    "email": "info@raichur-multi-specialty-center.org",
+    "location": {
+      "lat": 16.2136,
+      "lng": 77.3696,
+      "address": "60 Raichur Central Road",
+      "city": "Raichur",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 450,
+      "occupiedBeds": 346,
+      "availableBeds": 104
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1985,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1de3"
+  },
+  {
+    "hospital_id": "CHT-01",
+    "name": "Chitradurga General Hospital",
+    "regNumber": "KA-CHT-071",
+    "type": "Government",
+    "phone": "080-700071",
+    "email": "info@chitradurga-general-hospital.org",
+    "location": {
+      "lat": 14.2386,
+      "lng": 76.4076,
+      "address": "12 Chitradurga Central Road",
+      "city": "Chitradurga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 665,
+      "occupiedBeds": 432,
+      "availableBeds": 233
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1986,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1de4"
+  },
+  {
+    "hospital_id": "CHT-02",
+    "name": "Chitradurga Medical College & Research Center",
+    "regNumber": "KA-CHT-072",
+    "type": "Teaching",
+    "phone": "080-700072",
+    "email": "info@chitradurga-medical-college---research-center.org",
+    "location": {
+      "lat": 14.2176,
+      "lng": 76.3896,
+      "address": "24 Chitradurga Central Road",
+      "city": "Chitradurga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 780,
+      "occupiedBeds": 530,
+      "availableBeds": 250
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1987,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1de5"
+  },
+  {
+    "hospital_id": "CHT-03",
+    "name": "Chitradurga Heart Institute",
+    "regNumber": "KA-CHT-073",
+    "type": "Specialty",
+    "phone": "080-700073",
+    "email": "info@chitradurga-heart-institute.org",
+    "location": {
+      "lat": 14.2416,
+      "lng": 76.3946,
+      "address": "36 Chitradurga Central Road",
+      "city": "Chitradurga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 275,
+      "occupiedBeds": 195,
+      "availableBeds": 80
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1988,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1de6"
+  },
+  {
+    "hospital_id": "CHT-04",
+    "name": "Chitradurga Children's Hospital",
+    "regNumber": "KA-CHT-074",
+    "type": "Specialty",
+    "phone": "080-700074",
+    "email": "info@chitradurga-children-s-hospital.org",
+    "location": {
+      "lat": 14.2136,
+      "lng": 76.4096,
+      "address": "48 Chitradurga Central Road",
+      "city": "Chitradurga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 250,
+      "occupiedBeds": 185,
+      "availableBeds": 65
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1989,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1de7"
+  },
+  {
+    "hospital_id": "CHT-05",
+    "name": "Chitradurga Multi-Specialty Center",
+    "regNumber": "KA-CHT-075",
+    "type": "Private",
+    "phone": "080-700075",
+    "email": "info@chitradurga-multi-specialty-center.org",
+    "location": {
+      "lat": 14.2326,
+      "lng": 76.4146,
+      "address": "60 Chitradurga Central Road",
+      "city": "Chitradurga",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 465,
+      "occupiedBeds": 358,
+      "availableBeds": 107
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1990,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1de8"
+  },
+  {
+    "hospital_id": "KLR2-01",
+    "name": "Kolar General Hospital",
+    "regNumber": "KA-KLR2-076",
+    "type": "Government",
+    "phone": "080-700076",
+    "email": "info@kolar-general-hospital.org",
+    "location": {
+      "lat": 13.1482,
+      "lng": 78.1361,
+      "address": "12 Kolar Central Road",
+      "city": "Kolar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 620,
+      "occupiedBeds": 403,
+      "availableBeds": 217
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1991,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1de9"
+  },
+  {
+    "hospital_id": "KLR2-02",
+    "name": "Kolar Medical College & Research Center",
+    "regNumber": "KA-KLR2-077",
+    "type": "Teaching",
+    "phone": "080-700077",
+    "email": "info@kolar-medical-college---research-center.org",
+    "location": {
+      "lat": 13.1272,
+      "lng": 78.1181,
+      "address": "24 Kolar Central Road",
+      "city": "Kolar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 795,
+      "occupiedBeds": 540,
+      "availableBeds": 255
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1992,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1dea"
+  },
+  {
+    "hospital_id": "KLR2-03",
+    "name": "Kolar Heart Institute",
+    "regNumber": "KA-KLR2-078",
+    "type": "Specialty",
+    "phone": "080-700078",
+    "email": "info@kolar-heart-institute.org",
+    "location": {
+      "lat": 13.1512,
+      "lng": 78.1231,
+      "address": "36 Kolar Central Road",
+      "city": "Kolar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 290,
+      "occupiedBeds": 205,
+      "availableBeds": 85
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1993,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1deb"
+  },
+  {
+    "hospital_id": "KLR2-04",
+    "name": "Kolar Children's Hospital",
+    "regNumber": "KA-KLR2-079",
+    "type": "Specialty",
+    "phone": "080-700079",
+    "email": "info@kolar-children-s-hospital.org",
+    "location": {
+      "lat": 13.1232,
+      "lng": 78.1381,
+      "address": "48 Kolar Central Road",
+      "city": "Kolar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 265,
+      "occupiedBeds": 196,
+      "availableBeds": 69
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1994,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1dec"
+  },
+  {
+    "hospital_id": "KLR2-05",
+    "name": "Kolar Multi-Specialty Center",
+    "regNumber": "KA-KLR2-080",
+    "type": "Private",
+    "phone": "080-700080",
+    "email": "info@kolar-multi-specialty-center.org",
+    "location": {
+      "lat": 13.1422,
+      "lng": 78.1431,
+      "address": "60 Kolar Central Road",
+      "city": "Kolar",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 420,
+      "occupiedBeds": 323,
+      "availableBeds": 97
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1995,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1ded"
+  },
+  {
+    "hospital_id": "UDP-01",
+    "name": "Udupi General Hospital",
+    "regNumber": "KA-UDP-081",
+    "type": "Government",
+    "phone": "080-700081",
+    "email": "info@udupi-general-hospital.org",
+    "location": {
+      "lat": 13.3529,
+      "lng": 74.7491,
+      "address": "12 Udupi Central Road",
+      "city": "Udupi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 635,
+      "occupiedBeds": 412,
+      "availableBeds": 223
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1996,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1dee"
+  },
+  {
+    "hospital_id": "UDP-02",
+    "name": "Udupi Medical College & Research Center",
+    "regNumber": "KA-UDP-082",
+    "type": "Teaching",
+    "phone": "080-700082",
+    "email": "info@udupi-medical-college---research-center.org",
+    "location": {
+      "lat": 13.3319,
+      "lng": 74.7311,
+      "address": "24 Udupi Central Road",
+      "city": "Udupi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 810,
+      "occupiedBeds": 550,
+      "availableBeds": 260
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1997,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1def"
+  },
+  {
+    "hospital_id": "UDP-03",
+    "name": "Udupi Heart Institute",
+    "regNumber": "KA-UDP-083",
+    "type": "Specialty",
+    "phone": "080-700083",
+    "email": "info@udupi-heart-institute.org",
+    "location": {
+      "lat": 13.3559,
+      "lng": 74.7361,
+      "address": "36 Udupi Central Road",
+      "city": "Udupi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 305,
+      "occupiedBeds": 216,
+      "availableBeds": 89
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1998,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df0"
+  },
+  {
+    "hospital_id": "UDP-04",
+    "name": "Udupi Children's Hospital",
+    "regNumber": "KA-UDP-084",
+    "type": "Specialty",
+    "phone": "080-700084",
+    "email": "info@udupi-children-s-hospital.org",
+    "location": {
+      "lat": 13.3279,
+      "lng": 74.7511,
+      "address": "48 Udupi Central Road",
+      "city": "Udupi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 220,
+      "occupiedBeds": 162,
+      "availableBeds": 58
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1999,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df1"
+  },
+  {
+    "hospital_id": "UDP-05",
+    "name": "Udupi Multi-Specialty Center",
+    "regNumber": "KA-UDP-085",
+    "type": "Private",
+    "phone": "080-700085",
+    "email": "info@udupi-multi-specialty-center.org",
+    "location": {
+      "lat": 13.3469,
+      "lng": 74.7561,
+      "address": "60 Udupi Central Road",
+      "city": "Udupi",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 435,
+      "occupiedBeds": 334,
+      "availableBeds": 101
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 2000,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df2"
+  },
+  {
+    "hospital_id": "GAD-01",
+    "name": "Gadag General Hospital",
+    "regNumber": "KA-GAD-086",
+    "type": "Government",
+    "phone": "080-700086",
+    "email": "info@gadag-general-hospital.org",
+    "location": {
+      "lat": 15.4439,
+      "lng": 75.6426,
+      "address": "12 Gadag Central Road",
+      "city": "Gadag",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 650,
+      "occupiedBeds": 422,
+      "availableBeds": 228
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 2001,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df3"
+  },
+  {
+    "hospital_id": "GAD-02",
+    "name": "Gadag Medical College & Research Center",
+    "regNumber": "KA-GAD-087",
+    "type": "Teaching",
+    "phone": "080-700087",
+    "email": "info@gadag-medical-college---research-center.org",
+    "location": {
+      "lat": 15.4229,
+      "lng": 75.6246,
+      "address": "24 Gadag Central Road",
+      "city": "Gadag",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 825,
+      "occupiedBeds": 561,
+      "availableBeds": 264
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 2002,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df4"
+  },
+  {
+    "hospital_id": "GAD-03",
+    "name": "Gadag Heart Institute",
+    "regNumber": "KA-GAD-088",
+    "type": "Specialty",
+    "phone": "080-700088",
+    "email": "info@gadag-heart-institute.org",
+    "location": {
+      "lat": 15.4469,
+      "lng": 75.6296,
+      "address": "36 Gadag Central Road",
+      "city": "Gadag",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 260,
+      "occupiedBeds": 184,
+      "availableBeds": 76
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 2003,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df5"
+  },
+  {
+    "hospital_id": "GAD-04",
+    "name": "Gadag Children's Hospital",
+    "regNumber": "KA-GAD-089",
+    "type": "Specialty",
+    "phone": "080-700089",
+    "email": "info@gadag-children-s-hospital.org",
+    "location": {
+      "lat": 15.4189,
+      "lng": 75.6446,
+      "address": "48 Gadag Central Road",
+      "city": "Gadag",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 235,
+      "occupiedBeds": 173,
+      "availableBeds": 62
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 2004,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df6"
+  },
+  {
+    "hospital_id": "GAD-05",
+    "name": "Gadag Multi-Specialty Center",
+    "regNumber": "KA-GAD-090",
+    "type": "Private",
+    "phone": "080-700090",
+    "email": "info@gadag-multi-specialty-center.org",
+    "location": {
+      "lat": 15.4379,
+      "lng": 75.6496,
+      "address": "60 Gadag Central Road",
+      "city": "Gadag",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 450,
+      "occupiedBeds": 346,
+      "availableBeds": 104
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1975,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df7"
+  },
+  {
+    "hospital_id": "BGL-01",
+    "name": "Bagalkot General Hospital",
+    "regNumber": "KA-BGL-091",
+    "type": "Government",
+    "phone": "080-700091",
+    "email": "info@bagalkot-general-hospital.org",
+    "location": {
+      "lat": 16.197,
+      "lng": 75.7039,
+      "address": "12 Bagalkot Central Road",
+      "city": "Bagalkot",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 665,
+      "occupiedBeds": 432,
+      "availableBeds": 233
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1976,
+    "doctors": [
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df8"
+  },
+  {
+    "hospital_id": "BGL-02",
+    "name": "Bagalkot Medical College & Research Center",
+    "regNumber": "KA-BGL-092",
+    "type": "Teaching",
+    "phone": "080-700092",
+    "email": "info@bagalkot-medical-college---research-center.org",
+    "location": {
+      "lat": 16.176,
+      "lng": 75.6859,
+      "address": "24 Bagalkot Central Road",
+      "city": "Bagalkot",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 780,
+      "occupiedBeds": 530,
+      "availableBeds": 250
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1977,
+    "doctors": [
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1df9"
+  },
+  {
+    "hospital_id": "BGL-03",
+    "name": "Bagalkot Heart Institute",
+    "regNumber": "KA-BGL-093",
+    "type": "Specialty",
+    "phone": "080-700093",
+    "email": "info@bagalkot-heart-institute.org",
+    "location": {
+      "lat": 16.2,
+      "lng": 75.6909,
+      "address": "36 Bagalkot Central Road",
+      "city": "Bagalkot",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 275,
+      "occupiedBeds": 195,
+      "availableBeds": 80
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1978,
+    "doctors": [
+      {
+        "name": "Dr. Arjun Rao",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1dfa"
+  },
+  {
+    "hospital_id": "BGL-04",
+    "name": "Bagalkot Children's Hospital",
+    "regNumber": "KA-BGL-094",
+    "type": "Specialty",
+    "phone": "080-700094",
+    "email": "info@bagalkot-children-s-hospital.org",
+    "location": {
+      "lat": 16.172,
+      "lng": 75.7059,
+      "address": "48 Bagalkot Central Road",
+      "city": "Bagalkot",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 250,
+      "occupiedBeds": 185,
+      "availableBeds": 65
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1979,
+    "doctors": [
+      {
+        "name": "Dr. Sneha Menon",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1dfb"
+  },
+  {
+    "hospital_id": "BGL-05",
+    "name": "Bagalkot Multi-Specialty Center",
+    "regNumber": "KA-BGL-095",
+    "type": "Private",
+    "phone": "080-700095",
+    "email": "info@bagalkot-multi-specialty-center.org",
+    "location": {
+      "lat": 16.191,
+      "lng": 75.7109,
+      "address": "60 Bagalkot Central Road",
+      "city": "Bagalkot",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 465,
+      "occupiedBeds": 358,
+      "availableBeds": 107
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1980,
+    "doctors": [
+      {
+        "name": "Dr. Kiran Shah",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1dfc"
+  },
+  {
+    "hospital_id": "BLL-01",
+    "name": "Ballari General Hospital",
+    "regNumber": "KA-BLL-096",
+    "type": "Government",
+    "phone": "080-700096",
+    "email": "info@ballari-general-hospital.org",
+    "location": {
+      "lat": 15.1514,
+      "lng": 76.9284,
+      "address": "12 Ballari Central Road",
+      "city": "Ballari",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Internal Medicine",
+      "Orthopedics",
+      "Pediatrics"
+    ],
+    "beds": {
+      "totalBeds": 620,
+      "occupiedBeds": 403,
+      "availableBeds": 217
+    },
+    "ambulances": 10,
+    "rating": 4.1,
+    "establishedYear": 1981,
+    "doctors": [
+      {
+        "name": "Dr. Nandita Iyer",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Internal Medicine",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1dfd"
+  },
+  {
+    "hospital_id": "BLL-02",
+    "name": "Ballari Medical College & Research Center",
+    "regNumber": "KA-BLL-097",
+    "type": "Teaching",
+    "phone": "080-700097",
+    "email": "info@ballari-medical-college---research-center.org",
+    "location": {
+      "lat": 15.1304,
+      "lng": 76.9104,
+      "address": "24 Ballari Central Road",
+      "city": "Ballari",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Cardiology",
+      "Neurology",
+      "ICU"
+    ],
+    "beds": {
+      "totalBeds": 795,
+      "occupiedBeds": 540,
+      "availableBeds": 255
+    },
+    "ambulances": 12,
+    "rating": 4.3,
+    "establishedYear": 1982,
+    "doctors": [
+      {
+        "name": "Dr. Rahul Bhat",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1dfe"
+  },
+  {
+    "hospital_id": "BLL-03",
+    "name": "Ballari Heart Institute",
+    "regNumber": "KA-BLL-098",
+    "type": "Specialty",
+    "phone": "080-700098",
+    "email": "info@ballari-heart-institute.org",
+    "location": {
+      "lat": 15.1544,
+      "lng": 76.9154,
+      "address": "36 Ballari Central Road",
+      "city": "Ballari",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Cardiology",
+      "Cardiac Surgery",
+      "Emergency",
+      "Rehab"
+    ],
+    "beds": {
+      "totalBeds": 290,
+      "occupiedBeds": 205,
+      "availableBeds": 85
+    },
+    "ambulances": 6,
+    "rating": 4.5,
+    "establishedYear": 1983,
+    "doctors": [
+      {
+        "name": "Dr. Divya Suresh",
+        "department": "Cardiology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Cardiac Surgery",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1dff"
+  },
+  {
+    "hospital_id": "BLL-04",
+    "name": "Ballari Children's Hospital",
+    "regNumber": "KA-BLL-099",
+    "type": "Specialty",
+    "phone": "080-700099",
+    "email": "info@ballari-children-s-hospital.org",
+    "location": {
+      "lat": 15.1264,
+      "lng": 76.9304,
+      "address": "48 Ballari Central Road",
+      "city": "Ballari",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Pediatrics",
+      "Neonatology",
+      "Pediatric Surgery",
+      "Emergency"
+    ],
+    "beds": {
+      "totalBeds": 265,
+      "occupiedBeds": 196,
+      "availableBeds": 69
+    },
+    "ambulances": 5,
+    "rating": 4.4,
+    "establishedYear": 1984,
+    "doctors": [
+      {
+        "name": "Dr. Karthik Jain",
+        "department": "Pediatrics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Neonatology",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Pediatric Surgery",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1e00"
+  },
+  {
+    "hospital_id": "BLL-05",
+    "name": "Ballari Multi-Specialty Center",
+    "regNumber": "KA-BLL-100",
+    "type": "Private",
+    "phone": "080-700100",
+    "email": "info@ballari-multi-specialty-center.org",
+    "location": {
+      "lat": 15.1454,
+      "lng": 76.9354,
+      "address": "60 Ballari Central Road",
+      "city": "Ballari",
+      "state": "Karnataka"
+    },
+    "specialties": [
+      "Emergency",
+      "Orthopedics",
+      "Neurology",
+      "Oncology"
+    ],
+    "beds": {
+      "totalBeds": 420,
+      "occupiedBeds": 323,
+      "availableBeds": 97
+    },
+    "ambulances": 8,
+    "rating": 4.2,
+    "establishedYear": 1985,
+    "doctors": [
+      {
+        "name": "Dr. Asha Raman",
+        "department": "Emergency",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Vikram Desai",
+        "department": "Orthopedics",
+        "availability": true,
+        "role": "Doctor"
+      },
+      {
+        "name": "Dr. Meera Nair",
+        "department": "Neurology",
+        "availability": true,
+        "role": "Doctor"
+      }
+    ],
+    "resources": [],
+    "createdAt": "2026-04-02 09:44:09.137308",
+    "updatedAt": "2026-04-02 09:44:09.137308",
+    "_id": "69ce3a6ab69d953c43ca1e01"
+  }
+]
