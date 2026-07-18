@@ -1,0 +1,88 @@
+@baseUrl = http://localhost:3001
+@contentType = application/json
+
+### Health-like check through existing route
+GET {{baseUrl}}/api/hospital-communication/health
+
+### Auth signup (sample)
+POST {{baseUrl}}/api/auth/signup
+Content-Type: {{contentType}}
+
+{
+  "name": "Smoke User",
+  "email": "smoke.user@example.com",
+  "password": "Pass@123",
+  "role": "public",
+  "location": "Mangalore",
+  "phone": "9999999999"
+}
+
+### Auth login (sample)
+POST {{baseUrl}}/api/auth/login
+Content-Type: {{contentType}}
+
+{
+  "email": "smoke.user@example.com",
+  "password": "Pass@123",
+  "role": "public"
+}
+
+### Public dashboard full
+GET {{baseUrl}}/api/dashboard/public/REPLACE_USER_ID/full
+
+### Alerts create
+POST {{baseUrl}}/api/alerts
+Content-Type: {{contentType}}
+
+{
+  "userId": "REPLACE_USER_ID",
+  "locationDetails": "Lat: 12.9716, Lng: 77.5946",
+  "message": "Severe chest pain and breathing difficulty"
+}
+
+### Notifications
+GET {{baseUrl}}/api/notifications/REPLACE_USER_ID
+
+### Compatibility
+POST {{baseUrl}}/api/check_compatibility
+Content-Type: {{contentType}}
+
+{
+  "requester_id": "REPLACE_USER_ID",
+  "donor_id": "REPLACE_DONOR_ID",
+  "organ_type": "Blood"
+}
+
+### Analyze report
+POST {{baseUrl}}/api/analyze_report
+Content-Type: {{contentType}}
+
+{
+  "report_text": "Patient shows elevated BP and irregular heart rate patterns"
+}
+
+### Hospital AI sample
+POST {{baseUrl}}/api/hospital/predict_bed_forecast
+Content-Type: {{contentType}}
+
+{
+  "hospital_id": 1,
+  "occupancy": 78,
+  "day_of_week": 3
+}
+
+### Ambulance list
+GET {{baseUrl}}/api/ambulance/
+
+### Ambulance create
+POST {{baseUrl}}/api/ambulance/create
+Content-Type: {{contentType}}
+
+{
+  "ambulanceId": "AMB-SMOKE-001",
+  "registrationNumber": "KA01AB1234",
+  "hospitalId": "REPLACE_HOSPITAL_ID",
+  "driverName": "Smoke Driver",
+  "licenseNumber": "DL123456789",
+  "driverPhone": "9888888888"
+}

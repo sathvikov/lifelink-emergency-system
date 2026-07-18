@@ -1,0 +1,39 @@
+﻿{
+    "alerts":  [
+                   {
+                       "_id":  "69c4afd756b0e7cdf0128e7b",
+                       "user":  "69c4afd256b0e7cdf0128e76",
+                       "locationDetails":  "Lat: 12.97, Lng: 77.59",
+                       "message":  "Severe chest pain and breathing difficulty",
+                       "emergencyType":  "High",
+                       "priority":  "High",
+                       "status":  "pending",
+                       "severity_score":  75,
+                       "ai_confidence":  90,
+                       "ambulance_type":  "Basic Life Support (BLS)",
+                       "recommended_hospital":  "Emergency Department",
+                       "createdAt":  "2026-03-26T04:02:31.483Z",
+                       "updatedAt":  "2026-03-26T04:02:31.483Z",
+                       "__v":  0
+                   }
+               ],
+    "resourceRequests":  [
+                             {
+                                 "_id":  "69c4afe056b0e7cdf0128e80",
+                                 "requester":  "69c4afd256b0e7cdf0128e76",
+                                 "requestType":  "blood",
+                                 "details":  "O+ Blood needed urgently",
+                                 "urgency":  "high",
+                                 "status":  "pending",
+                                 "createdAt":  "2026-03-26T04:02:40.738Z",
+                                 "updatedAt":  "2026-03-26T04:02:40.738Z",
+                                 "__v":  0
+                             }
+                         ],
+    "hospitalMessages":  [
+
+                         ],
+    "healthRecords":  {
+                          "age":  0
+                      }
+}

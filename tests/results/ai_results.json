@@ -1,0 +1,547 @@
+[
+  {
+    "timestamp": "2026-04-06T14:26:31.770913",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "error": "Invalid token"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:26:58.682952",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T14:31:41.454119",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "error": "User not found"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:32:20.573044",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T14:36:35.823562",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "job_id": "f23b1bda-7fd4-4226-a750-1cf7800c296a",
+        "status": "PENDING"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:37:15.090958",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T14:45:02.533664",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "job_id": "6adaf879-a499-4d51-91bc-ab755d04f3d7",
+        "status": "PENDING"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:45:41.678925",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T14:51:22.450688",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "job_id": "61d2b9bd-ac9f-4642-b09b-0aa628d131fa",
+        "status": "PENDING"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:52:01.697496",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T14:59:02.915937",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "job_id": "08849ed1-9e21-4e7b-9d3f-30406b27e6f6",
+        "status": "PENDING"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:59:23.975663",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T15:02:35.803402",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "job_id": "dc5f0aad-884b-4379-866d-16238c5cdc6e",
+        "status": "PENDING"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:02:48.660417",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T15:03:47.008849",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "job_id": "cdcd8713-bfe4-4762-b11d-3538c5c0d169",
+        "status": "PENDING"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:03:59.858657",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T15:39:47.203498",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "job_id": "b0a84c76-cdcc-4c26-a17e-e0800a7437c2",
+        "status": "PENDING"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:40:00.030628",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T15:41:55.119190",
+    "test": "ai_output",
+    "status": "FAIL",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "job_id": "d4f51c89-fbe6-4c44-91fb-4485ef927133",
+        "status": "PENDING"
+      },
+      "latest": null
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:42:07.897366",
+    "test": "ai_reasoning",
+    "status": "FAIL",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": null,
+    "valid": false
+  },
+  {
+    "timestamp": "2026-04-06T15:44:55.739668",
+    "test": "ai_output",
+    "status": "PASS",
+    "details": "Prediction exists and is retrievable",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          12,
+          15,
+          18,
+          22
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "trigger": {
+        "job_id": "be7c7bd6-a053-41be-9279-f61a370e2c86",
+        "status": "FAILURE",
+        "fallback": {
+          "id": "fd00619e44aa437abb5cd73c7bc8a479",
+          "type": "demand_forecast",
+          "result": {
+            "prediction": "High emergency risk",
+            "confidence": 0.86,
+            "reasoning": "Spike in incidents + hospital load trend",
+            "suggested_action": "Deploy 3 ambulances",
+            "forecast": [
+              25.0,
+              28.3,
+              31.599999999999998,
+              34.9
+            ]
+          },
+          "confidence": 0.86,
+          "created_at": "2026-04-06T15:44:54.586366"
+        }
+      },
+      "latest": {
+        "id": "fd00619e44aa437abb5cd73c7bc8a479",
+        "type": "demand_forecast",
+        "result": {
+          "prediction": "High emergency risk",
+          "confidence": 0.86,
+          "reasoning": "Spike in incidents + hospital load trend",
+          "suggested_action": "Deploy 3 ambulances",
+          "forecast": [
+            25.0,
+            28.3,
+            31.599999999999998,
+            34.9
+          ]
+        },
+        "confidence": 0.86,
+        "created_at": "2026-04-06T15:44:54.586366"
+      }
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:44:56.930338",
+    "test": "ai_reasoning",
+    "status": "PASS",
+    "details": "Prediction contains confidence and reasoning",
+    "input": {
+      "type": "demand_forecast",
+      "payload": {
+        "series": [
+          9,
+          12,
+          14,
+          20
+        ],
+        "steps": 4
+      }
+    },
+    "output": {
+      "id": "527f1f82b0a544bfa372d7988d10b270",
+      "type": "demand_forecast",
+      "result": {
+        "prediction": "High emergency risk",
+        "confidence": 0.86,
+        "reasoning": "Spike in incidents + hospital load trend",
+        "suggested_action": "Deploy 3 ambulances",
+        "forecast": [
+          22.5,
+          26.0,
+          29.5,
+          33.0
+        ]
+      },
+      "confidence": 0.86,
+      "created_at": "2026-04-06T15:44:55.761887"
+    },
+    "valid": true
+  }
+]

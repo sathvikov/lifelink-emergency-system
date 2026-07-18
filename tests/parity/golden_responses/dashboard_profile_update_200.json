@@ -1,0 +1,27 @@
+﻿{
+    "message":  "Profile Updated",
+    "user":  {
+                 "publicProfile":  {
+                                       "healthRecords":  {
+                                                             "age":  0
+                                                         }
+                                   },
+                 "hospitalProfile":  {
+                                         "type":  "General",
+                                         "totalBeds":  0,
+                                         "ambulances":  0,
+                                         "specialties":  [
+
+                                                         ]
+                                     },
+                 "_id":  "69c4afd256b0e7cdf0128e76",
+                 "name":  "Golden3 A Updated",
+                 "email":  "golden3.a.20260326093226@example.com",
+                 "role":  "public",
+                 "isVerified":  true,
+                 "location":  "Mangalore City",
+                 "phone":  "9000000001",
+                 "createdAt":  "2026-03-26T04:02:26.438Z",
+                 "__v":  0
+             }
+}

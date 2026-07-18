@@ -1,0 +1,10 @@
+﻿{
+    "token":  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY5YzRhZGQ4OWVjMTkxNDM1ZWJmZjZhMiIsImlhdCI6MTc3NDQ5NzI0MSwiZXhwIjoxNzc3MDg5MjQxfQ.vjQ7oSglKCM1vCC8H1RUnvD11pbKdfUnC1gY3dpVi1o",
+    "user":  {
+                 "id":  "69c4add89ec191435ebff6a2",
+                 "name":  "Smoke User",
+                 "email":  "smoke.20260326092400@example.com",
+                 "role":  "public",
+                 "location":  "Mangalore"
+             }
+}

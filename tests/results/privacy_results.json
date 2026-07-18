@@ -1,0 +1,766 @@
+[
+  {
+    "timestamp": "2026-04-06T14:27:00.751492",
+    "test": "anonymization",
+    "status": "FAIL",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "error": "Invalid token"
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T14:27:47.695877",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T14:27:49.776742",
+    "test": "federated_privacy",
+    "status": "FAIL",
+    "details": "PII detected in response",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "error": "Invalid token"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:32:22.689440",
+    "test": "anonymization",
+    "status": "FAIL",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "error": "User not found"
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T14:33:52.923513",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T14:33:55.039295",
+    "test": "federated_privacy",
+    "status": "FAIL",
+    "details": "PII detected in response",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "error": "User not found"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:37:17.207032",
+    "test": "anonymization",
+    "status": "FAIL",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "error": "Internal server error"
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T14:38:47.581626",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T14:38:49.748564",
+    "test": "federated_privacy",
+    "status": "PASS",
+    "details": "Only weights transmitted",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "job_id": "770264dd-5ba9-468a-96fb-9acb8ae4b18e",
+      "status": "PENDING"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:43:21.088068",
+    "test": "federated_privacy",
+    "status": "FAIL",
+    "details": "HTTPConnectionPool(host='localhost', port=3001): Max retries exceeded with url: /v2/system/federated/train (Caused by NewConnectionError(\"HTTPConnection(host='localhost', port=3001): Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it\"))",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {}
+  },
+  {
+    "timestamp": "2026-04-06T14:45:43.761712",
+    "test": "anonymization",
+    "status": "FAIL",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "error": "Internal server error"
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T14:47:14.105950",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T14:47:16.224521",
+    "test": "federated_privacy",
+    "status": "PASS",
+    "details": "Only weights transmitted",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "job_id": "587303e5-2e4a-4d54-b8ee-2b194685caf5",
+      "status": "PENDING"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:52:03.763665",
+    "test": "anonymization",
+    "status": "FAIL",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "error": "Internal server error"
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T14:53:34.003737",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T14:53:36.070631",
+    "test": "federated_privacy",
+    "status": "PASS",
+    "details": "Only weights transmitted",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "job_id": "76b31498-ecfe-4ced-a21d-fb7d1422d278",
+      "status": "PENDING"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:59:24.026730",
+    "test": "anonymization",
+    "status": "PASS",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "status": "stored",
+      "anonymized": {
+        "hashed_id": "3bb686df6cedd9fa8ce8e22d808938df1ca0704ee6733c951f0bb0f5e6822866",
+        "severity": "High",
+        "location": "12.9,77.5"
+      }
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T14:59:53.032523",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T14:59:53.083006",
+    "test": "federated_privacy",
+    "status": "PASS",
+    "details": "Only weights transmitted",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "job_id": "2a385399-2b0e-40f0-8e33-3bfba253ca63",
+      "status": "PENDING"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:02:48.689609",
+    "test": "anonymization",
+    "status": "PASS",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "status": "stored",
+      "anonymized": {
+        "hashed_id": "3bb686df6cedd9fa8ce8e22d808938df1ca0704ee6733c951f0bb0f5e6822866",
+        "severity": "High",
+        "location": "12.9,77.5"
+      }
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T15:03:17.776441",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T15:03:17.934995",
+    "test": "federated_privacy",
+    "status": "PASS",
+    "details": "Only weights transmitted",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "job_id": "e6d9d899-fcc0-4661-8176-e0469142f1c7",
+      "status": "PENDING"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:03:59.896648",
+    "test": "anonymization",
+    "status": "PASS",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "status": "stored",
+      "anonymized": {
+        "hashed_id": "3bb686df6cedd9fa8ce8e22d808938df1ca0704ee6733c951f0bb0f5e6822866",
+        "severity": "High",
+        "location": "12.9,77.5"
+      }
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T15:04:28.979587",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T15:04:29.103675",
+    "test": "federated_privacy",
+    "status": "PASS",
+    "details": "Only weights transmitted",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "job_id": "010a8798-d33a-42a7-ae6a-58edb70fed87",
+      "status": "PENDING"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:40:00.070285",
+    "test": "anonymization",
+    "status": "PASS",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "status": "stored",
+      "anonymized": {
+        "hashed_id": "3bb686df6cedd9fa8ce8e22d808938df1ca0704ee6733c951f0bb0f5e6822866",
+        "severity": "High",
+        "location": "12.9,77.5"
+      }
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T15:40:29.246006",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T15:40:29.432564",
+    "test": "federated_privacy",
+    "status": "PASS",
+    "details": "Only weights transmitted",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "job_id": "a318d18f-f024-4696-9ba8-de75cb55f410",
+      "status": "PENDING"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:42:07.932439",
+    "test": "anonymization",
+    "status": "PASS",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "status": "stored",
+      "anonymized": {
+        "hashed_id": "3bb686df6cedd9fa8ce8e22d808938df1ca0704ee6733c951f0bb0f5e6822866",
+        "severity": "High",
+        "location": "12.9,77.5"
+      }
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T15:42:37.146441",
+    "test": "differential_privacy",
+    "status": "FAIL",
+    "details": "No weight variation detected",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": null,
+      "second": null
+    },
+    "difference_detected": false
+  },
+  {
+    "timestamp": "2026-04-06T15:42:37.304137",
+    "test": "federated_privacy",
+    "status": "PASS",
+    "details": "Only weights transmitted",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "job_id": "9835da68-8c3f-4085-a775-531933558e24",
+      "status": "PENDING"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:44:56.961450",
+    "test": "anonymization",
+    "status": "PASS",
+    "details": "PII removed from anonymized payload",
+    "input": {
+      "id": "emg-1",
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "address": "123 Test St",
+      "severity": "High",
+      "location": "12.9,77.5",
+      "patient_id": "p-999"
+    },
+    "output": {
+      "status": "stored",
+      "anonymized": {
+        "hashed_id": "3bb686df6cedd9fa8ce8e22d808938df1ca0704ee6733c951f0bb0f5e6822866",
+        "severity": "High",
+        "location": "12.9,77.5"
+      }
+    },
+    "pii_found": false
+  },
+  {
+    "timestamp": "2026-04-06T15:45:01.647889",
+    "test": "differential_privacy",
+    "status": "PASS",
+    "details": "Noise detected in weights",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "weight_count": 8,
+      "noise_std": 0.08
+    },
+    "output": {
+      "first": {
+        "id": "40ae10db66044eae9cda1817f1f43366",
+        "type": "federated_local",
+        "result": {
+          "hospital_id": "demo-hospital",
+          "weights": [
+            -0.3940685039910043,
+            0.6769972794295256,
+            -0.831031265444371,
+            0.4897007328265182,
+            -0.5704061445220655,
+            0.07745544027468407,
+            -0.8354901757485635,
+            0.22240861463785247
+          ],
+          "samples": 120
+        },
+        "confidence": 0.75,
+        "created_at": "2026-04-06T15:44:57.366795"
+      },
+      "second": {
+        "id": "53d416daf363465aab6b3e122e314358",
+        "type": "federated_local",
+        "result": {
+          "hospital_id": "demo-hospital",
+          "weights": [
+            0.36204532064187045,
+            -0.07793210628949732,
+            -0.18138908889512714,
+            -0.1701729999384528,
+            -0.15679682082252747,
+            1.0042276652969928,
+            0.4441746113268951,
+            0.24296579627081827
+          ],
+          "samples": 120
+        },
+        "confidence": 0.75,
+        "created_at": "2026-04-06T15:44:59.526027"
+      }
+    },
+    "difference_detected": true
+  },
+  {
+    "timestamp": "2026-04-06T15:45:01.774241",
+    "test": "federated_privacy",
+    "status": "PASS",
+    "details": "Only weights transmitted",
+    "input": {
+      "hospital_id": "demo-hospital",
+      "metrics": {
+        "samples": 120
+      },
+      "weights": [
+        0.1,
+        0.2,
+        0.3
+      ],
+      "name": "Jane Doe",
+      "phone": "+100000000",
+      "patient_id": "p-123"
+    },
+    "output": {
+      "job_id": "a4b4cc9c-105a-4496-984c-9b27491cc46e",
+      "status": "PENDING",
+      "fallback": {
+        "id": "72814ba98715406daa1a3b0955cc4bc1",
+        "type": "federated_local",
+        "result": {
+          "hospital_id": "demo-hospital",
+          "weights": [
+            -0.35965662083268485,
+            -0.5790788679246847,
+            0.8672342888173776,
+            -0.5798227920254744,
+            0.5293570860135903,
+            -0.48562537168363207,
+            0.030407665158035266,
+            -0.4363743342793431,
+            0.9440860561682415,
+            -0.40136809320316275,
+            -0.26517550854638705,
+            -0.765338788654521,
+            -0.1928341362326883,
+            -0.8031415761845392,
+            -0.50025735778545,
+            -0.4850687622697829
+          ],
+          "samples": 120
+        },
+        "confidence": 0.75,
+        "created_at": "2026-04-06T15:45:01.678661"
+      }
+    }
+  }
+]

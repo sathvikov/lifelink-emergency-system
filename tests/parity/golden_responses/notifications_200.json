@@ -1,0 +1,18 @@
+﻿{
+    "notifications":  [
+                          {
+                              "id":  "69c4afd756b0e7cdf0128e7b",
+                              "message":  "Severe chest pain and breathing difficulty",
+                              "severity":  "High",
+                              "severity_score":  75,
+                              "ambulance_type":  "Basic Life Support (BLS)",
+                              "timestamp":  "2026-03-26T04:02:31.483Z",
+                              "icon":  "fa-alert"
+                          }
+                      ],
+    "stats":  {
+                  "recent_critical_alerts":  1,
+                  "total_sos_calls":  1,
+                  "last_alert":  "2026-03-26T04:02:31.483Z"
+              }
+}

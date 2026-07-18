@@ -1,0 +1,174 @@
+﻿{
+    "checkedAt":  "2026-03-26T09:52:48.7302351+05:30",
+    "baseUrl":  "http://127.0.0.1:3002",
+    "total":  11,
+    "passed":  11,
+    "failed":  0,
+    "results":  [
+                    {
+                        "name":  "auth_signup",
+                        "method":  "POST",
+                        "path":  "/api/auth/signup",
+                        "pass":  true,
+                        "expectedStatus":  201,
+                        "actualStatus":  201,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "auth_login",
+                        "method":  "POST",
+                        "path":  "/api/auth/login",
+                        "pass":  true,
+                        "expectedStatus":  200,
+                        "actualStatus":  200,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "hospital_communication_health",
+                        "method":  "GET",
+                        "path":  "/api/hospital-communication/health",
+                        "pass":  true,
+                        "expectedStatus":  200,
+                        "actualStatus":  200,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "alerts_create",
+                        "method":  "POST",
+                        "path":  "/api/alerts",
+                        "pass":  true,
+                        "expectedStatus":  201,
+                        "actualStatus":  201,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "notifications",
+                        "method":  "GET",
+                        "path":  "/api/notifications/69c4afd256b0e7cdf0128e76",
+                        "pass":  true,
+                        "expectedStatus":  200,
+                        "actualStatus":  200,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "compatibility",
+                        "method":  "POST",
+                        "path":  "/api/check_compatibility",
+                        "pass":  true,
+                        "expectedStatus":  200,
+                        "actualStatus":  200,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "analyze_report",
+                        "method":  "POST",
+                        "path":  "/api/analyze_report",
+                        "pass":  true,
+                        "expectedStatus":  200,
+                        "actualStatus":  200,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "requests_create",
+                        "method":  "POST",
+                        "path":  "/api/requests",
+                        "pass":  true,
+                        "expectedStatus":  201,
+                        "actualStatus":  201,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "dashboard_public_full",
+                        "method":  "GET",
+                        "path":  "/api/dashboard/public/69c4afd256b0e7cdf0128e76/full",
+                        "pass":  true,
+                        "expectedStatus":  200,
+                        "actualStatus":  200,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "dashboard_profile_update",
+                        "method":  "PUT",
+                        "path":  "/api/dashboard/profile/69c4afd256b0e7cdf0128e76",
+                        "pass":  true,
+                        "expectedStatus":  200,
+                        "actualStatus":  200,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    },
+                    {
+                        "name":  "users_verify",
+                        "method":  "POST",
+                        "path":  "/api/users/verify",
+                        "pass":  true,
+                        "expectedStatus":  200,
+                        "actualStatus":  200,
+                        "statusOk":  true,
+                        "missingKeys":  [
+
+                                        ],
+                        "extraKeys":  [
+
+                                      ]
+                    }
+                ]
+}

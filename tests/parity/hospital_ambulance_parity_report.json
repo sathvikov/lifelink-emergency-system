@@ -1,0 +1,310 @@
+﻿{
+    "checkedAt":  "2026-03-26T10:01:22.6033967+05:30",
+    "nodeBaseUrl":  "http://127.0.0.1:3001",
+    "fastApiBaseUrl":  "http://127.0.0.1:3002",
+    "total":  20,
+    "passed":  20,
+    "failed":  0,
+    "results":  [
+                    {
+                        "name":  "hospital_comm_health",
+                        "method":  "GET",
+                        "path":  "/api/hospital-communication/health",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_debug",
+                        "method":  "GET",
+                        "path":  "/api/hospital-communication/debug/status",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_list",
+                        "method":  "GET",
+                        "path":  "/api/hospital-communication/list/69c4b686babfc450e429ceb1",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_details",
+                        "method":  "GET",
+                        "path":  "/api/hospital-communication/details/69c4b687babfc450e429ceb4",
+                        "nodeStatus":  404,
+                        "fastApiStatus":  404,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_send",
+                        "method":  "POST",
+                        "path":  "/api/hospital-communication/send-message",
+                        "nodeStatus":  201,
+                        "fastApiStatus":  201,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_messages",
+                        "method":  "GET",
+                        "path":  "/api/hospital-communication/messages/69c4b687babfc450e429ceb4",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_sent",
+                        "method":  "GET",
+                        "path":  "/api/hospital-communication/sent-messages/69c4b686babfc450e429ceb1",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_patch",
+                        "method":  "PATCH",
+                        "path":  "/api/hospital-communication/message/69c4b687babfc450e429ceb7",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_reply",
+                        "method":  "POST",
+                        "path":  "/api/hospital-communication/message/69c4b687babfc450e429ceb7/reply",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_my",
+                        "method":  "GET",
+                        "path":  "/api/hospital-communication/my-hospital/69c4b686babfc450e429ceb1",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_my_put",
+                        "method":  "PUT",
+                        "path":  "/api/hospital-communication/my-hospital/69c4b686babfc450e429ceb1",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_predict_eta",
+                        "method":  "POST",
+                        "path":  "/api/hospital/predict_eta",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hosp_predict_eta_alias",
+                        "method":  "POST",
+                        "path":  "/api/hosp/predict_eta",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_list",
+                        "method":  "GET",
+                        "path":  "/api/ambulance/",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_hospital_list",
+                        "method":  "GET",
+                        "path":  "/api/ambulance/hospital/697b92c00d68c645d33f821a",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_details",
+                        "method":  "GET",
+                        "path":  "/api/ambulance/6983639b69f63362f115349b",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_predict_eta",
+                        "method":  "POST",
+                        "path":  "/api/ambulance/6983639b69f63362f115349b/predict-eta",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_get_route",
+                        "method":  "POST",
+                        "path":  "/api/ambulance/6983639b69f63362f115349b/get-route",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_status",
+                        "method":  "PUT",
+                        "path":  "/api/ambulance/6983639b69f63362f115349b/status",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_metrics",
+                        "method":  "GET",
+                        "path":  "/api/ambulance/6983639b69f63362f115349b/metrics",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    }
+                ]
+}

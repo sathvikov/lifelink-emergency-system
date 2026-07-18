@@ -1,0 +1,149 @@
+[
+  {
+    "timestamp": "2026-04-06T14:27:02.816831",
+    "test": "performance",
+    "status": "FAIL",
+    "details": "Response time 2050 ms",
+    "input": {
+      "endpoint": "/api/health"
+    },
+    "output": {
+      "status_code": 200,
+      "response_time_ms": 2050
+    },
+    "response_time_ms": 2050
+  },
+  {
+    "timestamp": "2026-04-06T14:32:31.283028",
+    "test": "performance",
+    "status": "FAIL",
+    "details": "Response time 2053 ms",
+    "input": {
+      "endpoint": "/api/health"
+    },
+    "output": {
+      "status_code": 200,
+      "response_time_ms": 2053,
+      "samples": [
+        2081,
+        2057,
+        2053
+      ]
+    },
+    "response_time_ms": 2053
+  },
+  {
+    "timestamp": "2026-04-06T14:37:25.764735",
+    "test": "performance",
+    "status": "FAIL",
+    "details": "Response time 2046 ms",
+    "input": {
+      "endpoint": "/api/health"
+    },
+    "output": {
+      "status_code": 200,
+      "response_time_ms": 2046,
+      "samples": [
+        2057,
+        2046,
+        2075
+      ]
+    },
+    "response_time_ms": 2046
+  },
+  {
+    "timestamp": "2026-04-06T14:45:52.316666",
+    "test": "performance",
+    "status": "FAIL",
+    "details": "Response time 2047 ms",
+    "input": {
+      "endpoint": "/api/health"
+    },
+    "output": {
+      "status_code": 200,
+      "response_time_ms": 2047,
+      "samples": [
+        2081,
+        2047,
+        2056
+      ]
+    },
+    "response_time_ms": 2047
+  },
+  {
+    "timestamp": "2026-04-06T14:52:12.285359",
+    "test": "performance",
+    "status": "FAIL",
+    "details": "Response time 2042 ms",
+    "input": {
+      "endpoint": "/api/health"
+    },
+    "output": {
+      "status_code": 200,
+      "response_time_ms": 2042,
+      "samples": [
+        2042,
+        2045,
+        2060
+      ]
+    },
+    "response_time_ms": 2042
+  },
+  {
+    "timestamp": "2026-04-06T14:59:24.379388",
+    "test": "performance",
+    "status": "PASS",
+    "details": "Response time 3 ms",
+    "input": {
+      "endpoint": "/api/health"
+    },
+    "output": {
+      "status_code": 200,
+      "response_time_ms": 3,
+      "samples": [
+        22,
+        3,
+        14
+      ]
+    },
+    "response_time_ms": 3
+  },
+  {
+    "timestamp": "2026-04-06T15:02:49.023084",
+    "test": "performance",
+    "status": "PASS",
+    "details": "Response time 3 ms",
+    "input": {
+      "endpoint": "/api/health"
+    },
+    "output": {
+      "status_code": 200,
+      "response_time_ms": 3,
+      "samples": [
+        5,
+        3,
+        5
+      ]
+    },
+    "response_time_ms": 3
+  },
+  {
+    "timestamp": "2026-04-06T15:04:00.243106",
+    "test": "performance",
+    "status": "PASS",
+    "details": "Response time 4 ms",
+    "input": {
+      "endpoint": "/api/health"
+    },
+    "output": {
+      "status_code": 200,
+      "response_time_ms": 4,
+      "samples": [
+        5,
+        4,
+        4
+      ]
+    },
+    "response_time_ms": 4
+  }
+]

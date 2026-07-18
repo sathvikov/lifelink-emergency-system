@@ -1,0 +1,714 @@
+﻿{
+    "checkedAt":  "2026-03-26T12:28:53.9024504+05:30",
+    "nodeBaseUrl":  "http://127.0.0.1:3001",
+    "fastApiBaseUrl":  "http://127.0.0.1:3002",
+    "total":  44,
+    "passed":  44,
+    "failed":  0,
+    "results":  [
+                    {
+                        "name":  "dashboard_hospital_stats",
+                        "method":  "GET",
+                        "nodePath":  "/api/dashboard/hospital/stats",
+                        "fastPath":  "/api/dashboard/hospital/stats",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_hospital_alerts",
+                        "method":  "GET",
+                        "nodePath":  "/api/dashboard/hospital/alerts",
+                        "fastPath":  "/api/dashboard/hospital/alerts",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_hospital_alert_update",
+                        "method":  "PUT",
+                        "nodePath":  "/api/dashboard/hospital/alert/69c4d7e3f0906a4a4473727e",
+                        "fastPath":  "/api/dashboard/hospital/alert/69c4d7e3f0906a4a4473727e",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_admin_pending",
+                        "method":  "GET",
+                        "nodePath":  "/api/dashboard/admin/pending-hospitals",
+                        "fastPath":  "/api/dashboard/admin/pending-hospitals",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_admin_verify",
+                        "method":  "PUT",
+                        "nodePath":  "/api/dashboard/admin/verify/69c4d7dcf0906a4a4473727b",
+                        "fastPath":  "/api/dashboard/admin/verify/69c4d7dcf0906a4a4473727b",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_patient_admit",
+                        "method":  "POST",
+                        "nodePath":  "/api/dashboard/hospital/patient/admit",
+                        "fastPath":  "/api/dashboard/hospital/patient/admit",
+                        "nodeStatus":  201,
+                        "fastApiStatus":  201,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_hospital_patients",
+                        "method":  "GET",
+                        "nodePath":  "/api/dashboard/hospital/patients/697b92c00d68c645d33f821a",
+                        "fastPath":  "/api/dashboard/hospital/patients/697b92c00d68c645d33f821a",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_resource_add",
+                        "method":  "POST",
+                        "nodePath":  "/api/dashboard/hospital/resource/add",
+                        "fastPath":  "/api/dashboard/hospital/resource/add",
+                        "nodeStatus":  201,
+                        "fastApiStatus":  201,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_hospital_resources",
+                        "method":  "GET",
+                        "nodePath":  "/api/dashboard/hospital/resources/697b92c00d68c645d33f821a",
+                        "fastPath":  "/api/dashboard/hospital/resources/697b92c00d68c645d33f821a",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_notification_delete_alert",
+                        "method":  "DELETE",
+                        "nodePath":  "/api/dashboard/notification/alert/69c4d7ebf0906a4a44737280",
+                        "fastPath":  "/api/dashboard/notification/alert/69c4d7f0f0906a4a44737282",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "dashboard_notification_delete_request",
+                        "method":  "DELETE",
+                        "nodePath":  "/api/dashboard/notification/request/69c4d7f0f0906a4a44737286",
+                        "fastPath":  "/api/dashboard/notification/request/69c4d7f0f0906a4a44737284",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_predict_health_risk",
+                        "method":  "POST",
+                        "nodePath":  "/api/predict_health_risk",
+                        "fastPath":  "/api/predict_health_risk",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_predict_user_cluster",
+                        "method":  "POST",
+                        "nodePath":  "/api/predict_user_cluster",
+                        "fastPath":  "/api/predict_user_cluster",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_predict_user_forecast",
+                        "method":  "POST",
+                        "nodePath":  "/api/predict_user_forecast",
+                        "fastPath":  "/api/predict_user_forecast",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_hosp_predict_severity",
+                        "method":  "POST",
+                        "nodePath":  "/api/hosp/predict_severity",
+                        "fastPath":  "/api/hosp/predict_severity",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_gov_predict_outbreak",
+                        "method":  "POST",
+                        "nodePath":  "/api/gov/predict_outbreak",
+                        "fastPath":  "/api/gov/predict_outbreak",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_gov_predict_severity",
+                        "method":  "POST",
+                        "nodePath":  "/api/gov/predict_severity",
+                        "fastPath":  "/api/gov/predict_severity",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_gov_predict_availability",
+                        "method":  "POST",
+                        "nodePath":  "/api/gov/predict_availability",
+                        "fastPath":  "/api/gov/predict_availability",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_gov_predict_allocation",
+                        "method":  "POST",
+                        "nodePath":  "/api/gov/predict_allocation",
+                        "fastPath":  "/api/gov/predict_allocation",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_gov_predict_policy_segment",
+                        "method":  "POST",
+                        "nodePath":  "/api/gov/predict_policy_segment",
+                        "fastPath":  "/api/gov/predict_policy_segment",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_gov_predict_performance_score",
+                        "method":  "POST",
+                        "nodePath":  "/api/gov/predict_performance_score",
+                        "fastPath":  "/api/gov/predict_performance_score",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_gov_predict_anomaly",
+                        "method":  "POST",
+                        "nodePath":  "/api/gov/predict_anomaly",
+                        "fastPath":  "/api/gov/predict_anomaly",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_hospital_patient_recovery",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/patient/recovery",
+                        "fastPath":  "/api/hospital/patient/recovery",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_hospital_patient_stay",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/patient/stay",
+                        "fastPath":  "/api/hospital/patient/stay",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_hospital_inventory_predict",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/inventory/predict",
+                        "fastPath":  "/api/hospital/inventory/predict",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ai_ml_predict_eta",
+                        "method":  "POST",
+                        "nodePath":  "/api/ml/predict-eta",
+                        "fastPath":  "/api/ml/predict-eta",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_triage",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/triage",
+                        "fastPath":  "/api/hospital/triage",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_eta",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/eta",
+                        "fastPath":  "/api/hospital/eta",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_bed_forecast",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/bed_forecast",
+                        "fastPath":  "/api/hospital/bed_forecast",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_staff",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/staff",
+                        "fastPath":  "/api/hospital/staff",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_donors",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/donors",
+                        "fastPath":  "/api/hospital/donors",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_performance",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/performance",
+                        "fastPath":  "/api/hospital/performance",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_predict_bed_forecast",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/predict_bed_forecast",
+                        "fastPath":  "/api/hospital/predict_bed_forecast",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_predict_staff_allocation",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/predict_staff_allocation",
+                        "fastPath":  "/api/hospital/predict_staff_allocation",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_predict_disease_forecast",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/predict_disease_forecast",
+                        "fastPath":  "/api/hospital/predict_disease_forecast",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_predict_recovery",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/predict_recovery",
+                        "fastPath":  "/api/hospital/predict_recovery",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_predict_stay_duration",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/predict_stay_duration",
+                        "fastPath":  "/api/hospital/predict_stay_duration",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_predict_performance",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/predict_performance",
+                        "fastPath":  "/api/hospital/predict_performance",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_inventory",
+                        "method":  "POST",
+                        "nodePath":  "/api/hospital/inventory",
+                        "fastPath":  "/api/hospital/inventory",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "hospital_comm_delete_message",
+                        "method":  "DELETE",
+                        "nodePath":  "/api/hospital-communication/message/69c4d7f1f0906a4a44737293",
+                        "fastPath":  "/api/hospital-communication/message/69c4d7f1f0906a4a44737298",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_create",
+                        "method":  "POST",
+                        "nodePath":  "/api/ambulance/create",
+                        "fastPath":  "/api/ambulance/create",
+                        "nodeStatus":  201,
+                        "fastApiStatus":  201,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_update_location",
+                        "method":  "POST",
+                        "nodePath":  "/api/ambulance/6983639b69f63362f115349b/update-location",
+                        "fastPath":  "/api/ambulance/6983639b69f63362f115349b/update-location",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_start_route",
+                        "method":  "POST",
+                        "nodePath":  "/api/ambulance/6983639b69f63362f115349b/start-route",
+                        "fastPath":  "/api/ambulance/6983639b69f63362f115349b/start-route",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    },
+                    {
+                        "name":  "ambulance_complete_route",
+                        "method":  "POST",
+                        "nodePath":  "/api/ambulance/6983639b69f63362f115349b/complete-route",
+                        "fastPath":  "/api/ambulance/6983639b69f63362f115349b/complete-route",
+                        "nodeStatus":  200,
+                        "fastApiStatus":  200,
+                        "statusMatch":  true,
+                        "missingInFast":  [
+
+                                          ],
+                        "extraInFast":  [
+
+                                        ],
+                        "pass":  true
+                    }
+                ]
+}

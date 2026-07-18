@@ -1,0 +1,13 @@
+﻿{
+    "message":  "Alert Sent Successfully!",
+    "severity_level":  "High",
+    "severity_score":  75,
+    "ai_confidence":  90,
+    "recommendation":  {
+                           "hospital_name":  "Emergency Department - Central",
+                           "eta":  5,
+                           "ambulance_type":  "Basic Life Support (BLS)",
+                           "response_time":  "5-10 minutes"
+                       },
+    "alert_id":  "69c4afd756b0e7cdf0128e7b"
+}

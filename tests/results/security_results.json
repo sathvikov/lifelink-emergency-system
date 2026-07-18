@@ -1,0 +1,487 @@
+[
+  {
+    "timestamp": "2026-04-06T14:27:53.913918",
+    "test": "rbac",
+    "status": "FAIL",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 401,
+      "gov_status": 401
+    },
+    "output": {
+      "public_body": "{\"error\":\"Invalid token\"}",
+      "gov_body": "{\"error\":\"Invalid token\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "denied"
+  },
+  {
+    "timestamp": "2026-04-06T14:28:00.096819",
+    "test": "authentication",
+    "status": "FAIL",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 401
+    },
+    "output": {
+      "valid_body": "{\"error\":\"Invalid token\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:28:02.183663",
+    "test": "blockchain_integrity",
+    "status": "FAIL",
+    "details": "Audit log API failed",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {
+      "status": 401
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:33:59.190663",
+    "test": "rbac",
+    "status": "FAIL",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 401,
+      "gov_status": 401
+    },
+    "output": {
+      "public_body": "{\"error\":\"User not found\"}",
+      "gov_body": "{\"error\":\"User not found\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "denied"
+  },
+  {
+    "timestamp": "2026-04-06T14:34:05.380949",
+    "test": "authentication",
+    "status": "FAIL",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 401
+    },
+    "output": {
+      "valid_body": "{\"error\":\"User not found\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:34:07.478934",
+    "test": "blockchain_integrity",
+    "status": "FAIL",
+    "details": "Audit log API failed",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {
+      "status": 401
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:38:53.922998",
+    "test": "rbac",
+    "status": "PASS",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 403,
+      "gov_status": 200
+    },
+    "output": {
+      "public_body": "{\"error\":\"Access denied for this role\"}",
+      "gov_body": "{\"job_id\":\"8421a629-f834-4cb8-9b84-be233564b88c\",\"status\":\"PENDING\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "granted"
+  },
+  {
+    "timestamp": "2026-04-06T14:39:00.148535",
+    "test": "authentication",
+    "status": "PASS",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 500
+    },
+    "output": {
+      "valid_body": "{\"error\":\"Internal server error\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:39:13.399312",
+    "test": "blockchain_integrity",
+    "status": "FAIL",
+    "details": "No audit log found",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {}
+  },
+  {
+    "timestamp": "2026-04-06T14:47:20.336296",
+    "test": "rbac",
+    "status": "PASS",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 403,
+      "gov_status": 200
+    },
+    "output": {
+      "public_body": "{\"error\":\"Access denied for this role\"}",
+      "gov_body": "{\"job_id\":\"2ed2882d-023b-415a-bb89-10fdb967e191\",\"status\":\"PENDING\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "granted"
+  },
+  {
+    "timestamp": "2026-04-06T14:47:26.539376",
+    "test": "authentication",
+    "status": "PASS",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 500
+    },
+    "output": {
+      "valid_body": "{\"error\":\"Internal server error\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:47:39.653579",
+    "test": "blockchain_integrity",
+    "status": "FAIL",
+    "details": "No audit log found",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {}
+  },
+  {
+    "timestamp": "2026-04-06T14:53:40.197683",
+    "test": "rbac",
+    "status": "PASS",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 403,
+      "gov_status": 200
+    },
+    "output": {
+      "public_body": "{\"error\":\"Access denied for this role\"}",
+      "gov_body": "{\"job_id\":\"e66a2e8b-ec94-42c3-be4e-e5d116ee1cda\",\"status\":\"PENDING\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "granted"
+  },
+  {
+    "timestamp": "2026-04-06T14:53:46.375038",
+    "test": "authentication",
+    "status": "PASS",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 500
+    },
+    "output": {
+      "valid_body": "{\"error\":\"Internal server error\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:53:59.531891",
+    "test": "blockchain_integrity",
+    "status": "FAIL",
+    "details": "No audit log found",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {}
+  },
+  {
+    "timestamp": "2026-04-06T14:59:53.129264",
+    "test": "rbac",
+    "status": "PASS",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 403,
+      "gov_status": 200
+    },
+    "output": {
+      "public_body": "{\"error\":\"Access denied for this role\"}",
+      "gov_body": "{\"job_id\":\"f4ec1829-ef76-42bc-80da-70a942833d50\",\"status\":\"PENDING\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "granted"
+  },
+  {
+    "timestamp": "2026-04-06T14:59:53.164185",
+    "test": "authentication",
+    "status": "PASS",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 500
+    },
+    "output": {
+      "valid_body": "{\"error\":\"Internal server error\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T14:59:53.493561",
+    "test": "blockchain_integrity",
+    "status": "FAIL",
+    "details": "Hash chain integrity validation",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {
+      "stored": "bc5d76c6c52471a44b5ec513c69a666b6ebd13bda08b818f6f8c497e32c1c827",
+      "expected": "a864e1ac50deb374730c28d1e705ea22adf91c1cac5e262d78acdea56387319d",
+      "tampered": "636c26dd6ad48e37a0a7941229cac830b2185deca752930cfbe8458497bfffea"
+    },
+    "tamper_detected": true
+  },
+  {
+    "timestamp": "2026-04-06T15:03:17.967986",
+    "test": "rbac",
+    "status": "PASS",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 403,
+      "gov_status": 200
+    },
+    "output": {
+      "public_body": "{\"error\":\"Access denied for this role\"}",
+      "gov_body": "{\"job_id\":\"01760aca-91bf-4e7f-9031-f5053dc40c5e\",\"status\":\"PENDING\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "granted"
+  },
+  {
+    "timestamp": "2026-04-06T15:03:18.026046",
+    "test": "authentication",
+    "status": "PASS",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 500
+    },
+    "output": {
+      "valid_body": "{\"error\":\"Internal server error\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:03:18.369368",
+    "test": "blockchain_integrity",
+    "status": "PASS",
+    "details": "Hash chain integrity validation",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {
+      "stored": "b098bb033ad1b4ce2a7322ba7847da0ae4e9ea2aa94c5d6505f599600f10f164",
+      "expected": "b098bb033ad1b4ce2a7322ba7847da0ae4e9ea2aa94c5d6505f599600f10f164",
+      "tampered": "f68c46d00551010092c525b62649090a84858fb24a5cf05afbc6f0fb7ecf50f1"
+    },
+    "tamper_detected": true
+  },
+  {
+    "timestamp": "2026-04-06T15:04:29.150649",
+    "test": "rbac",
+    "status": "PASS",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 403,
+      "gov_status": 200
+    },
+    "output": {
+      "public_body": "{\"error\":\"Access denied for this role\"}",
+      "gov_body": "{\"job_id\":\"88dcde34-e483-424f-a949-4c7b37ca02a7\",\"status\":\"PENDING\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "granted"
+  },
+  {
+    "timestamp": "2026-04-06T15:04:29.180943",
+    "test": "authentication",
+    "status": "PASS",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 500
+    },
+    "output": {
+      "valid_body": "{\"error\":\"Internal server error\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:04:29.529572",
+    "test": "blockchain_integrity",
+    "status": "PASS",
+    "details": "Hash chain integrity validation",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {
+      "stored": "dc974715fecf7cc605d410cc6d7dcee43344b5976f9a6629664d888a340ff7ec",
+      "expected": "dc974715fecf7cc605d410cc6d7dcee43344b5976f9a6629664d888a340ff7ec",
+      "tampered": "00aaf6c409e2a6e0cd278e92f601f3c9e5374a9fd99c4b34152c8218f60f0ac4"
+    },
+    "tamper_detected": true
+  },
+  {
+    "timestamp": "2026-04-06T15:40:29.469416",
+    "test": "rbac",
+    "status": "PASS",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 403,
+      "gov_status": 200
+    },
+    "output": {
+      "public_body": "{\"error\":\"Access denied for this role\"}",
+      "gov_body": "{\"job_id\":\"8c1e1574-7ca7-4a12-a099-8cee33bc4f4a\",\"status\":\"PENDING\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "granted"
+  },
+  {
+    "timestamp": "2026-04-06T15:40:29.528474",
+    "test": "authentication",
+    "status": "PASS",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 500
+    },
+    "output": {
+      "valid_body": "{\"error\":\"Internal server error\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:40:29.915888",
+    "test": "blockchain_integrity",
+    "status": "PASS",
+    "details": "Hash chain integrity validation",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {
+      "stored": "24842b8f05351baa8d9361b8b5751112b992d626e8b64625d9543e3cf0b50e77",
+      "expected": "24842b8f05351baa8d9361b8b5751112b992d626e8b64625d9543e3cf0b50e77",
+      "tampered": "de5b3ce106f97b2e2744226f69ddd01ca683ea673c950b55a105de8a075065ec"
+    },
+    "tamper_detected": true
+  },
+  {
+    "timestamp": "2026-04-06T15:42:37.339954",
+    "test": "rbac",
+    "status": "PASS",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 403,
+      "gov_status": 200
+    },
+    "output": {
+      "public_body": "{\"error\":\"Access denied for this role\"}",
+      "gov_body": "{\"job_id\":\"8dde31d5-c91d-47ca-b2af-335cf14a10b9\",\"status\":\"PENDING\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "granted"
+  },
+  {
+    "timestamp": "2026-04-06T15:42:37.399151",
+    "test": "authentication",
+    "status": "PASS",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 500
+    },
+    "output": {
+      "valid_body": "{\"error\":\"Internal server error\"}"
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:42:37.772677",
+    "test": "blockchain_integrity",
+    "status": "PASS",
+    "details": "Hash chain integrity validation",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {
+      "stored": "2cdffdbf4fc1530c738e38ee2f37c030be6ef4a1509151c1da63843d34d872cd",
+      "expected": "2cdffdbf4fc1530c738e38ee2f37c030be6ef4a1509151c1da63843d34d872cd",
+      "tampered": "03c2e85686cefe55a18f8b3fa9fa73f6d6b91991594dce58cf4f56a8d39493ca"
+    },
+    "tamper_detected": true
+  },
+  {
+    "timestamp": "2026-04-06T15:45:01.816695",
+    "test": "rbac",
+    "status": "PASS",
+    "details": "Public denied, government granted",
+    "input": {
+      "public_status": 403,
+      "gov_status": 200
+    },
+    "output": {
+      "public_body": "{\"error\":\"Access denied for this role\"}",
+      "gov_body": "{\"job_id\":\"659237e3-2ee6-4b0c-85a4-0a9c09a07b22\",\"status\":\"PENDING\"}"
+    },
+    "public_access": "denied",
+    "gov_access": "granted"
+  },
+  {
+    "timestamp": "2026-04-06T15:45:01.862743",
+    "test": "authentication",
+    "status": "PASS",
+    "details": "Token validation behavior",
+    "input": {
+      "no_token": 401,
+      "invalid": 401,
+      "valid": 200
+    },
+    "output": {
+      "valid_body": "{\"id\":\"72814ba98715406daa1a3b0955cc4bc1\",\"type\":\"federated_local\",\"result\":{\"hospital_id\":\"demo-hospital\",\"weights\":[-0.35965662083268485,-0.5790788679246847,0.8672342888173776,-0.5798227920254744,0.5293570860135903,-0.48562537168363207,0.030407665158035266,-0.4363743342793431,0.9440860561682415,-0."
+    }
+  },
+  {
+    "timestamp": "2026-04-06T15:45:02.170177",
+    "test": "blockchain_integrity",
+    "status": "PASS",
+    "details": "Hash chain integrity validation",
+    "input": {
+      "action": "test_audit",
+      "details": "integrity_check"
+    },
+    "output": {
+      "stored": "f1fd105b2050df1c68ac71e3a2361f80ecac6a7e3453cb831078fabf3a30c4d4",
+      "expected": "f1fd105b2050df1c68ac71e3a2361f80ecac6a7e3453cb831078fabf3a30c4d4",
+      "tampered": "4addd6b7a17a882d9edd7d068a4350d0838a7b9b973b990ad2c9d80ab6939ec6"
+    },
+    "tamper_detected": true
+  }
+]

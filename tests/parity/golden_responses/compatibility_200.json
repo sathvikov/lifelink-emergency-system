@@ -1,0 +1,3 @@
+﻿{
+    "error":  "An error occurred during compatibility prediction: columns are missing: {\u0027donor_gender\u0027, \u0027location_distance\u0027, \u0027receiver_age\u0027, \u0027receiver_gender\u0027, \u0027donor_age\u0027, \u0027donor_blood_type\u0027, \u0027receiver_blood_type\u0027}"
+}
