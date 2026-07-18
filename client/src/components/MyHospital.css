@@ -1,0 +1,409 @@
+.my-hospital-container {
+  padding: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.hospital-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #e0e0e0;
+  padding-bottom: 15px;
+  gap: 20px;
+  flex-wrap: nowrap;
+}
+
+.hospital-header h2 {
+  margin: 0;
+  color: #1e40af;
+  font-size: 28px;
+  flex: 1;
+  min-width: 0;
+}
+
+.btn-edit {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.3s;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.btn-edit:hover {
+  background: #2563eb;
+}
+
+.btn-edit.btn-cancel {
+  background: #ef4444;
+}
+
+.btn-edit.btn-cancel:hover {
+  background: #dc2626;
+}
+
+.hospital-section {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.hospital-section h3 {
+  margin: 0 0 20px 0;
+  color: #1f2937;
+  font-size: 18px;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 10px;
+}
+
+/* BEDS SECTION */
+.beds-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 15px;
+}
+
+.bed-card {
+  background: linear-gradient(135deg, #f3f4f6 0%, #ffffff 100%);
+  padding: 20px;
+  border-radius: 8px;
+  border: 2px solid #e5e7eb;
+  text-align: center;
+}
+
+.bed-card label {
+  display: block;
+  font-weight: 600;
+  color: #4b5563;
+  margin-bottom: 10px;
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.bed-card input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #3b82f6;
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.bed-value {
+  font-size: 32px;
+  font-weight: bold;
+  color: #1e40af;
+  margin-top: 5px;
+}
+
+.bed-card.available {
+  background: linear-gradient(135deg, #dcfce7 0%, #f0fdf4 100%);
+  border-color: #22c55e;
+}
+
+.bed-card.available .bed-value {
+  color: #22c55e;
+}
+
+/* DOCTORS & RESOURCES LIST */
+.add-item-form {
+  background: #f9fafb;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #e5e7eb;
+}
+
+.add-item-form h4 {
+  margin: 0 0 12px 0;
+  color: #374151;
+  font-size: 14px;
+}
+
+.form-row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.form-row input,
+.form-row select {
+  flex: 1;
+  min-width: 120px;
+  padding: 8px 12px;
+  border: 1px solid #d1d5db;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+.form-row input:focus,
+.form-row select:focus {
+  outline: none;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.1);
+}
+
+.checkbox-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  font-size: 13px;
+  color: #374151;
+  white-space: nowrap;
+  padding: 6px 10px;
+  border-radius: 4px;
+  background: transparent;
+  transition: background 0.2s;
+  user-select: none;
+}
+
+.checkbox-label:hover {
+  background: #f0f0f0;
+}
+
+.checkbox-label:focus-within {
+  background: #f0f0f0;
+}
+
+.checkbox-label input {
+  width: 16px;
+  height: 16px;
+  cursor: pointer;
+  margin: 0;
+  accent-color: #3b82f6;
+  flex-shrink: 0;
+}
+
+.checkbox-label input:focus {
+  outline: none;
+}
+
+.checkbox-label input:focus-visible {
+  outline: 2px solid #3b82f6;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.btn-add {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
+.btn-add:hover {
+  background: #16a34a;
+}
+
+.items-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 12px;
+}
+
+.empty-state {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #9ca3af;
+  padding: 30px;
+  font-style: italic;
+}
+
+.item-card {
+  background: #fafafa;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #e5e7eb;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  transition: all 0.2s;
+}
+
+.item-card:hover {
+  border-color: #3b82f6;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.doctor-card {
+  border-left: 4px solid #3b82f6;
+}
+
+.resource-card {
+  border-left: 4px solid #f59e0b;
+}
+
+.item-info {
+  flex: 1;
+}
+
+.item-info strong {
+  display: block;
+  color: #1f2937;
+  margin-bottom: 4px;
+  font-size: 14px;
+}
+
+.item-info p {
+  margin: 3px 0;
+  color: #6b7280;
+  font-size: 12px;
+}
+
+.resource-units {
+  font-weight: 600;
+  color: #f59e0b;
+  margin-top: 6px !important;
+}
+
+.availability-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 3px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-top: 6px;
+}
+
+.availability-badge.available {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.availability-badge.unavailable {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.btn-remove {
+  background: #ef4444;
+  color: white;
+  border: none;
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 1;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.btn-remove:hover {
+  background: #dc2626;
+  transform: scale(1.1);
+}
+
+.form-actions {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.btn-save {
+  background: #22c55e;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.3s;
+}
+
+.btn-save:hover {
+  background: #16a34a;
+  transform: translateY(-2px);
+}
+
+.btn-cancel {
+  background: #6b7280;
+  color: white;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.btn-cancel:hover {
+  background: #4b5563;
+}
+
+.loading {
+  text-align: center;
+  padding: 40px;
+  color: #9ca3af;
+}
+
+.error-message {
+  background: #fee2e2;
+  color: #b91c1c;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  border: 1px solid #fca5a5;
+}
+
+.btn-retry {
+  background: #3b82f6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-retry:hover {
+  background: #2563eb;
+}
+
+@media (max-width: 768px) {
+  .beds-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .form-row input,
+  .form-row select,
+  .form-row button {
+    width: 100%;
+  }
+
+  .items-list {
+    grid-template-columns: 1fr;
+  }
+
+  .hospital-header {
+    flex-direction: column;
+    gap: 15px;
+    align-items: flex-start;
+  }
+
+  .btn-edit {
+    width: 100%;
+  }
+}

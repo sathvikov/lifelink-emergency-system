@@ -1,0 +1,781 @@
+/* Ambulance ETA & Route Styles */
+
+.ambulance-eta-section {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 16px;
+    padding: 24px;
+    color: white;
+    box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+    margin-bottom: 24px;
+}
+
+.ambulance-eta-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 16px;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+}
+
+.ambulance-eta-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.ambulance-eta-title i {
+    font-size: 28px;
+}
+
+.ambulance-tab-controls {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.ambulance-tab-btn {
+    padding: 10px 16px;
+    background: rgba(255, 255, 255, 0.2);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    font-size: 14px;
+}
+
+.ambulance-tab-btn:hover {
+    background: rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+.ambulance-tab-btn.active {
+    background: white;
+    color: #667eea;
+    border-color: white;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Location Input Section */
+.ambulance-location-input-container {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr 1fr;
+    gap: 12px;
+    margin-bottom: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 16px;
+    border-radius: 12px;
+    backdrop-filter: blur(10px);
+    align-items: flex-end;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media (max-width: 1200px) {
+    .ambulance-location-input-container {
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ambulance-location-input-container {
+        grid-template-columns: 1fr;
+        gap: 10px;
+    }
+}
+
+.ambulance-input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.ambulance-input-label {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.9;
+}
+
+.ambulance-input-field {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 8px;
+    background: white;
+    color: #333;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.ambulance-input-field:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.3);
+}
+
+.ambulance-input-field::placeholder {
+    color: #999;
+}
+
+.ambulance-location-btn {
+    padding: 10px 16px;
+    background: #ff6b6b;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.ambulance-location-btn:hover {
+    background: #ff5252;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.3);
+}
+
+.ambulance-location-btn:active {
+    transform: translateY(0);
+}
+
+.ambulance-location-btn.loading {
+    opacity: 0.7;
+    cursor: not-allowed;
+}
+
+/* Ambulance Grid Layout */
+.ambulance-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.ambulance-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ambulance-card:hover {
+    background: rgba(255, 255, 255, 0.15);
+    transform: translateY(-4px);
+    border-color: rgba(255, 255, 255, 0.4);
+}
+
+.ambulance-card.selected {
+    background: rgba(255, 255, 255, 0.25);
+    border-color: white;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.ambulance-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.ambulance-card-title {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ambulance-status-badge {
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.status-available {
+    background: #51cf66;
+    color: white;
+}
+
+.status-en-route {
+    background: #ff922b;
+    color: white;
+}
+
+.status-at-location {
+    background: #4dabf7;
+    color: white;
+}
+
+.status-maintenance {
+    background: #a78bfa;
+    color: white;
+}
+
+.ambulance-info {
+    font-size: 13px;
+    line-height: 1.6;
+    opacity: 0.9;
+}
+
+.ambulance-info-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.ambulance-info-label {
+    opacity: 0.8;
+}
+
+/* Map Container */
+.ambulance-map-container {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    height: 500px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.ambulance-map {
+    width: 100%;
+    height: 100%;
+}
+
+.ambulance-map-marker {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #667eea;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid white;
+}
+
+.ambulance-map-marker.available {
+    background: #51cf66;
+}
+
+.ambulance-map-marker.en_route {
+    background: #ffd43b;
+    animation: pulse 1.5s ease-in-out infinite;
+}
+
+.ambulance-map-marker.on_duty {
+    background: #667eea;
+}
+
+.ambulance-map-marker.on_break {
+    background: #a78bfa;
+}
+
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+        box-shadow: 0 2px 8px rgba(255, 212, 59, 0.2);
+    }
+    50% {
+        transform: scale(1.1);
+        box-shadow: 0 4px 12px rgba(255, 212, 59, 0.4);
+    }
+}
+
+.ambulance-map-controls {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+    z-index: 10;
+}
+
+.ambulance-map-btn {
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+.ambulance-map-btn:hover {
+    background: #f0f0f0;
+    transform: scale(1.05);
+}
+
+.ambulance-map-btn:active {
+    transform: scale(0.95);
+}
+
+/* Ambulance Active Tracking */
+.ambulance-active-tracking {
+    display: none; /* Hidden trigger element */
+}
+
+/* Selected Ambulance Details */
+.ambulance-selected-details {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.ambulance-selected-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin: 0 0 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ambulance-details-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 12px;
+}
+
+.ambulance-detail-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    border-left: 3px solid #667eea;
+}
+
+.ambulance-detail-key {
+    font-weight: 600;
+    font-size: 13px;
+    opacity: 0.8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.ambulance-detail-val {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+/* ETA Details Section */
+.ambulance-eta-details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 16px;
+    margin-bottom: 20px;
+}
+
+.ambulance-detail-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 16px;
+    text-align: center;
+}
+
+.ambulance-detail-label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    opacity: 0.8;
+    margin-bottom: 8px;
+    font-weight: 600;
+}
+
+.ambulance-detail-value {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.ambulance-detail-unit {
+    font-size: 13px;
+    opacity: 0.9;
+}
+
+.ambulance-confidence {
+    display: inline-block;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 8px;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Route Information */
+.ambulance-route-info {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.ambulance-route-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ambulance-route-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.ambulance-route-item:last-child {
+    border-bottom: none;
+}
+
+.ambulance-route-label {
+    font-size: 13px;
+}
+
+.ambulance-route-value {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+/* Alternate Routes */
+.ambulance-alternate-routes {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 20px;
+}
+
+.ambulance-alternate-title {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 12px;
+}
+
+.ambulance-route-option {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 8px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.ambulance-route-option:last-child {
+    margin-bottom: 0;
+}
+
+.ambulance-route-option:hover {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+.ambulance-route-name {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.ambulance-route-meta {
+    font-size: 12px;
+    opacity: 0.9;
+}
+
+/* Control Buttons */
+.ambulance-control-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.ambulance-btn {
+    flex: 1;
+    min-width: 140px;
+    padding: 12px 16px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.ambulance-btn-primary {
+    background: white;
+    color: #667eea;
+}
+
+.ambulance-btn-primary:hover {
+    background: #f0f0f0;
+    transform: translateY(-2px);
+}
+
+.ambulance-btn-secondary {
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.ambulance-btn-secondary:hover {
+    background: rgba(255, 255, 255, 0.3);
+    border-color: white;
+}
+
+.ambulance-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+    transform: none;
+}
+
+/* Loading & Animations */
+.ambulance-loading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    color: white;
+    font-size: 16px;
+}
+
+.ambulance-spinner {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    border: 3px solid rgba(255, 255, 255, 0.3);
+    border-top-color: white;
+    border-radius: 50%;
+    animation: ambulance-spin 0.8s linear infinite;
+    margin-right: 12px;
+}
+
+@keyframes ambulance-spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Pulse Animation */
+@keyframes ambulance-pulse {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.ambulance-pulse {
+    animation: ambulance-pulse 2s ease-in-out infinite;
+}
+
+/* Error States */
+.ambulance-error {
+    background: rgba(255, 77, 77, 0.2);
+    border: 1px solid rgba(255, 77, 77, 0.5);
+    color: #ff4d4d;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+.ambulance-success {
+    background: rgba(81, 207, 102, 0.2);
+    border: 1px solid rgba(81, 207, 102, 0.5);
+    color: #51cf66;
+    padding: 12px 16px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .ambulance-eta-section {
+        padding: 16px;
+    }
+
+    .ambulance-location-input-container {
+        grid-template-columns: 1fr;
+    }
+
+    .ambulance-eta-details {
+        grid-template-columns: 1fr;
+    }
+
+    .ambulance-detail-value {
+        font-size: 24px;
+    }
+
+    .ambulance-map-container {
+        height: 350px;
+    }
+
+    .ambulance-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .ambulance-btn {
+        min-width: auto;
+    }
+
+    .ambulance-eta-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .ambulance-tab-controls {
+        width: 100%;
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .ambulance-eta-section {
+        padding: 12px;
+    }
+
+    .ambulance-eta-title {
+        font-size: 18px;
+    }
+
+    .ambulance-detail-value {
+        font-size: 20px;
+    }
+
+    .ambulance-control-buttons {
+        flex-direction: column;
+    }
+
+    .ambulance-btn {
+        width: 100%;
+    }
+}
+
+/* Marker Animations */
+.ambulance-marker {
+    width: 32px;
+    height: 32px;
+    background: #667eea;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(102, 126, 234, 0.4);
+}
+
+.ambulance-marker.moving {
+    animation: ambulance-pulse 1.5s ease-in-out infinite;
+}
+
+.hospital-marker {
+    width: 32px;
+    height: 32px;
+    background: #ff6b6b;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(255, 107, 107, 0.4);
+}
+
+.pickup-marker {
+    width: 32px;
+    height: 32px;
+    background: #51cf66;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(81, 207, 102, 0.6);
+    animation: ambulance-pulse 1s ease-in-out infinite;
+}
+
+.ambulance-start-marker {
+    width: 36px;
+    height: 36px;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    border: 4px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 4px 12px rgba(102, 126, 234, 0.6);
+    animation: ambulance-pulse 1s ease-in-out infinite;
+}
+
+.pickup-start-marker {
+    width: 32px;
+    height: 32px;
+    background: #ffa500;
+    border: 3px solid white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 16px;
+    box-shadow: 0 2px 8px rgba(255, 165, 0, 0.6);
+    animation: ambulance-pulse 0.8s ease-in-out infinite;
+}
+
+.route-path-line {
+    stroke: #667eea;
+    stroke-width: 3;
+    fill: none;
+    stroke-dasharray: 5, 5;
+}

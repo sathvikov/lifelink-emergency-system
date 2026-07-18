@@ -1,0 +1,63 @@
+/* client/src/index.css */
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --font-display: "Fraunces", "Times New Roman", serif;
+    --font-body: "Space Grotesk", "Segoe UI", sans-serif;
+    --color-ink: #0f172a;
+    --color-muted: #475569;
+}
+
+body {
+    font-family: var(--font-body);
+    color: var(--color-ink);
+    background-color: #f8fafc;
+}
+
+.public-shell {
+    background:
+        radial-gradient(circle at 15% 20%, rgba(255, 237, 213, 0.7), transparent 45%),
+        radial-gradient(circle at 85% 10%, rgba(186, 230, 253, 0.6), transparent 40%),
+    linear-gradient(180deg, #f8fafc 0%, #eff6ff 100%);
+}
+
+.font-display {
+    font-family: var(--font-display);
+}
+
+html { scroll-behavior: smooth; }
+
+.gradient-background-universal { 
+    background: linear-gradient(-45deg, #ffffff, #e0f2fe, #d8b4fe, #a5f3fc); 
+    background-size: 400% 400%; 
+    animation: gradientShift 20s ease infinite; 
+}
+
+/* Animations from your original file */
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideInUp { from { transform: translateY(30px); opacity: 0; } to { transform: translateY(0); opacity: 1; } }
+@keyframes zoomIn { from { transform: scale(0.95); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+@keyframes gradientShift { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
+@keyframes subtlePulse { 0%, 100% { transform: scale(1); box-shadow: 0 0 5px transparent; } 50% { transform: scale(1.03); box-shadow: 0 0 25px rgba(14, 165, 233, 0.4); } }
+
+.animate-fade-in { animation: fadeIn 1s ease-out forwards; }
+.animate-slide-in-up { animation: slideInUp 0.8s ease-out forwards; }
+.animate-zoom-in { animation: zoomIn 0.7s ease-out forwards; }
+.animate-pulse-cta { animation: subtlePulse 3s ease-in-out infinite; }
+
+.input-group { position: relative; }
+.input-icon { position: absolute; left: 0; top: 0; height: 100%; width: 3rem; display: flex; align-items: center; justify-content: center; color: #9ca3af; transition: color 0.2s ease; }
+.input-field { padding-left: 3rem; transition: border-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out; width: 100%; border-radius: 0.5rem; border-width: 1px; padding-top: 0.75rem; padding-bottom: 0.75rem; background-color: #f9fafb; border-color: #d1d5db; color: #111827; }
+.input-field:focus { border-color: #0ea5e9; box-shadow: 0 0 0 2px rgba(14, 165, 233, 0.2); outline: none; }
+
+/* Map & Chart Styles */
+.map-container { height: 400px; width: 100%; border-radius: 0.75rem; z-index: 10; }
+.hospital-icon { background: white; border: 2px solid #dc2626; border-radius: 50%; width: 32px; height: 32px; display: flex; align-items: center; justify-content: center; color: #dc2626; box-shadow: 0 2px 5px rgba(0,0,0,0.4); }
+.hotspot-icon { border-radius: 50%; width: 20px; height: 20px; display: flex; align-items: center; justify-content: center; font-size: 10px; color: white; border: 2px solid white; box-shadow: 0 2px 5px rgba(0,0,0,0.5); }
+.hotspot-icon-high { background-color: #ef4444; }
+.hotspot-icon-medium { background-color: #f97316; }
+.hotspot-icon-low { background-color: #eab308; }

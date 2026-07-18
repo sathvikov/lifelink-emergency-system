@@ -1,0 +1,135 @@
+.ambulance-live-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.ambulance-live-header {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+@media (min-width: 768px) {
+    .ambulance-live-header {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+.ambulance-live-map {
+    height: 420px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid #e2e8f0;
+}
+
+.ambulance-live-status {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+}
+
+.status-pill {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 999px;
+    background: #e2e8f0;
+    color: #475569;
+}
+
+.status-pill.open {
+    background: #dcfce7;
+    color: #166534;
+}
+
+.status-pill.connecting {
+    background: #e0f2fe;
+    color: #0369a1;
+}
+
+.status-pill.closed,
+.status-pill.error {
+    background: #fee2e2;
+    color: #b91c1c;
+}
+
+.ambulance-live-marker {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 14px;
+    box-shadow: 0 8px 20px rgba(15, 23, 42, 0.2);
+    border: 2px solid white;
+}
+
+.ambulance-live-marker.available {
+    background: #16a34a;
+}
+
+.ambulance-live-marker.en-route {
+    background: #f97316;
+}
+
+.ambulance-live-marker.at-location {
+    background: #0ea5e9;
+}
+
+.ambulance-live-marker.returning {
+    background: #6366f1;
+}
+
+.ambulance-live-marker.maintenance {
+    background: #ef4444;
+}
+
+.ambulance-live-list {
+    background: #f8fafc;
+    padding: 16px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.ambulance-live-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 14px;
+    background: white;
+    border-radius: 10px;
+    border: 1px solid #e2e8f0;
+}
+
+.status-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 999px;
+}
+
+.status-dot.available {
+    background: #16a34a;
+}
+
+.status-dot.en-route {
+    background: #f97316;
+}
+
+.status-dot.at-location {
+    background: #0ea5e9;
+}
+
+.status-dot.returning {
+    background: #6366f1;
+}
+
+.status-dot.maintenance {
+    background: #ef4444;
+}
