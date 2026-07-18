@@ -1,0 +1,142 @@
+Create a highly detailed, ultra-high resolution (8K), professional cross-platform integration diagram titled:
+
+"Cross-Platform System Integration Diagram"
+
+Style:
+- Modern, clean, product-level system visualization
+- UI-focused but still technical
+- Use a dark theme with glowing UI elements OR white theme with soft gradients
+- 16:9 aspect ratio
+- Smooth vector UI mockups (mobile + web screens)
+- No cartoon style
+
+Color Theme:
+- Blue → system/backend
+- Green → healthcare interactions
+- Purple → AI (label strictly as "LifeLink AI")
+- Orange → emergency features
+- Yellow → notifications
+- Grey/white → infrastructure
+
+-----------------------------------
+LAYOUT (CENTERED ECOSYSTEM DESIGN):
+-----------------------------------
+
+Design a central system with devices surrounding it:
+
+-----------------------------------
+
+1. CENTER CORE:
+-----------------------------------
+
+A central block labeled:
+
+"LifeLink Platform"
+
+Inside include:
+- Backend Services
+- API Layer
+- Real-Time Engine
+
+Below or integrated:
+"LifeLink AI" (highlighted in purple)
+
+-----------------------------------
+
+2. LEFT SIDE – MOBILE APPLICATION:
+-----------------------------------
+
+Show a realistic smartphone UI mockup with screens:
+
+- Emergency SOS Button
+- Health Profile
+- Live Tracking Screen
+- Alerts/Notifications
+
+Label:
+"Mobile Application (User Interface)"
+
+Include user icons:
+- Patients
+- Public
+- Ambulance Drivers
+
+-----------------------------------
+
+3. RIGHT SIDE – WEB DASHBOARD:
+-----------------------------------
+
+Show a desktop/laptop UI mockup with dashboards:
+
+- Hospital Dashboard (bed availability, incoming patients)
+- Government Dashboard (analytics, monitoring)
+- Investor Dashboard (insights, reports)
+
+Label:
+"Web Dashboard (Admin & Institutional Interface)"
+
+-----------------------------------
+
+4. DATA & INTERACTION FLOW:
+-----------------------------------
+
+- Connect Mobile ↔ LifeLink Platform
+- Connect Web ↔ LifeLink Platform
+
+Use bidirectional arrows:
+- "User Input"
+- "Real-Time Updates"
+- "AI Insights"
+- "Emergency Alerts"
+
+-----------------------------------
+
+5. INTEGRATED ENTITIES (AROUND SYSTEM):
+-----------------------------------
+
+Add small icons connected to platform:
+
+- Hospitals
+- Ambulances (with GPS)
+- Government systems
+- Data sources
+
+-----------------------------------
+
+6. REAL-TIME FEATURES HIGHLIGHT:
+-----------------------------------
+
+Add floating labels/icons:
+- "Live Tracking"
+- "Instant Alerts"
+- "AI Recommendations"
+- "Seamless Communication"
+
+-----------------------------------
+
+7. VISUAL ENHANCEMENTS:
+-----------------------------------
+
+- Add glowing data flow lines between devices and system
+- Use UI-like elements (cards, dashboards)
+- Add subtle grid/tech background
+- Maintain symmetry and spacing
+
+-----------------------------------
+
+8. TITLE & FINISHING:
+-----------------------------------
+
+Top Title:
+"Cross-Platform System Integration Diagram"
+
+Subtitle:
+"Seamless Connectivity Across Mobile, Web, and AI-Driven Backend"
+
+- Ensure clean alignment
+- Avoid clutter
+- Make it visually appealing for presentation
+
+-----------------------------------
+
+The final output should look like a real-world product ecosystem diagram used in modern SaaS platforms and AI-powered applications, clearly showing how users, devices, and systems are interconnected through LifeLink.

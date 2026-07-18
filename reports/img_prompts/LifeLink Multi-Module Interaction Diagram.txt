@@ -1,0 +1,135 @@
+Create a highly detailed, ultra-high resolution (8K), professional system interaction diagram titled:
+
+"LifeLink Multi-Module Interaction Diagram"
+
+Style:
+- Modern, clean, enterprise-level architecture visualization
+- Use a dark theme with glowing accents OR a white theme with soft gradients
+- 16:9 aspect ratio
+- Smooth vector icons, no cartoon style
+- Use subtle glow effects for connections
+
+Color Theme:
+- Blue → Core system
+- Green → Healthcare entities (Patient, Hospital)
+- Orange → Emergency/operations
+- Purple → AI (label strictly as "LifeLink AI")
+- Gold → Investor/financial layer
+- Grey/white → neutral connectors
+
+-----------------------------------
+LAYOUT (RADIAL / HUB-AND-SPOKE DESIGN):
+-----------------------------------
+
+Place "LifeLink AI" at the CENTER as the intelligent core.
+
+Surround it with modules in a circular or hexagonal layout:
+
+-----------------------------------
+
+1. PATIENT MODULE (Top-left or left):
+- Icon: human/medical profile
+- Label: "Patient Module"
+- Sub-elements:
+  - Health Records
+  - Emergency Requests
+  - Real-time Alerts
+
+-----------------------------------
+
+2. HOSPITAL MODULE (Top-right):
+- Icon: hospital building
+- Label: "Hospital Module"
+- Sub-elements:
+  - Bed Availability
+  - Emergency Handling
+  - Resource Management
+
+-----------------------------------
+
+3. GOVERNMENT MODULE (Right side):
+- Icon: government/building emblem
+- Label: "Government & Regulatory Module"
+- Sub-elements:
+  - Policy Monitoring
+  - Compliance Tracking
+  - Public Health Data
+
+-----------------------------------
+
+4. INVESTOR MODULE (Bottom-right):
+- Icon: analytics/finance chart
+- Label: "Investor & Analytics Module"
+- Sub-elements:
+  - Healthcare Insights
+  - Trends & Reports
+  - Funding Allocation
+
+-----------------------------------
+
+5. EMERGENCY / OPERATIONS MODULE (Bottom-left):
+- Icon: ambulance / emergency signal
+- Label: "Emergency Response Module"
+- Sub-elements:
+  - Dispatch System
+  - Real-time Coordination
+  - Incident Management
+
+-----------------------------------
+
+6. CONNECTIVITY (VERY IMPORTANT):
+-----------------------------------
+
+- Connect ALL modules bidirectionally with "LifeLink AI" at center
+- Use double arrows (↔) to show interaction:
+  Patient ↔ AI ↔ Hospital ↔ Government ↔ Investor
+
+- Also include cross-connections:
+  - Patient ↔ Hospital
+  - Hospital ↔ Government
+  - Government ↔ Investor
+
+- Use glowing animated-style arrows (static image but visually dynamic)
+
+-----------------------------------
+
+7. DATA FLOW INDICATION:
+-----------------------------------
+
+Add small labels on arrows:
+- "Real-time Data"
+- "AI Insights"
+- "Emergency Alerts"
+- "Policy Updates"
+
+-----------------------------------
+
+8. VISUAL ENHANCEMENTS:
+-----------------------------------
+
+- Add circular rings or network grid around AI to show intelligence
+- Add subtle pulse/glow effect from AI center
+- Use icons for:
+  - Data streams
+  - Alerts
+  - Analytics
+
+-----------------------------------
+
+9. TITLE & FINISHING:
+-----------------------------------
+
+Top Title:
+"LifeLink Multi-Module Interaction Diagram"
+
+Subtitle:
+"An Intelligent, Connected Healthcare Ecosystem"
+
+- Ensure symmetry and balance
+- Avoid clutter
+- Maintain clear spacing between modules
+- Make it suitable for PPT and poster presentation
+
+-----------------------------------
+
+The final output should look like a high-end system interaction diagram used in AI-driven smart infrastructure presentations.

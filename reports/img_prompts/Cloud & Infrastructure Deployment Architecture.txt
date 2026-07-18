@@ -1,0 +1,158 @@
+Create a highly detailed, ultra-high resolution (8K), professional cloud architecture diagram titled:
+
+"Cloud & Infrastructure Deployment Architecture"
+
+Style:
+- Enterprise-level cloud system architecture (similar to AWS/GCP diagrams)
+- Clean, modern, highly structured
+- Use a dark theme with glowing elements OR a white theme with subtle gradients
+- 16:9 aspect ratio
+- Use vector icons for servers, cloud, APIs, databases
+- No cartoon style
+
+Color Theme:
+- Blue → cloud infrastructure
+- Purple → AI services (label strictly as "LifeLink AI")
+- Green → healthcare services
+- Orange → emergency services
+- Yellow → data flow/alerts
+- Grey/white → infrastructure
+
+-----------------------------------
+LAYOUT (TOP → DOWN CLOUD ARCHITECTURE):
+-----------------------------------
+
+Design a layered cloud deployment system with clear separation:
+
+-----------------------------------
+
+1. USER ACCESS LAYER (TOP):
+-----------------------------------
+
+- Mobile App Users
+- Web Dashboard Users
+- Hospital Systems
+- Government Systems
+
+Label:
+"User Access Layer"
+
+-----------------------------------
+
+2. NETWORK & SECURITY LAYER:
+-----------------------------------
+
+- Load Balancer
+- API Gateway
+- Authentication & Authorization Service
+- Firewall / Security Layer
+
+Label:
+"Network & Security Layer"
+
+-----------------------------------
+
+3. APPLICATION SERVICES LAYER:
+-----------------------------------
+
+- Backend Servers (Node.js / Express)
+- Microservices Architecture:
+  - Emergency Service
+  - Patient Service
+  - Hospital Service
+  - Notification Service
+
+Label:
+"Application Services Layer"
+
+-----------------------------------
+
+4. AI SERVICES LAYER (HIGHLIGHTED):
+-----------------------------------
+
+A distinct block:
+
+"LifeLink AI Services"
+
+Include:
+- Predictive Analytics Engine
+- Decision Engine
+- Routing Optimization
+- Data Intelligence Module
+
+Use glowing purple emphasis
+
+-----------------------------------
+
+5. DATA LAYER:
+-----------------------------------
+
+- Primary Database (MongoDB / SQL)
+- Real-Time Data Streams
+- Logs & Analytics Storage
+
+Use database cylinder icons
+
+Label:
+"Data Storage Layer"
+
+-----------------------------------
+
+6. INFRASTRUCTURE LAYER (BOTTOM):
+-----------------------------------
+
+- Cloud Servers (AWS/GCP/Azure style icons)
+- Containerization (Docker/Kubernetes)
+- CDN (Content Delivery Network)
+- Monitoring & Logging Systems
+
+Label:
+"Cloud Infrastructure Layer"
+
+-----------------------------------
+
+7. CONNECTIONS & DATA FLOW:
+-----------------------------------
+
+- Show vertical flow:
+  Users → API Gateway → Services → AI → Database
+
+- Include bidirectional arrows for:
+  - Data retrieval
+  - Real-time updates
+
+- Add labels:
+  - "API Calls"
+  - "Real-Time Data"
+  - "AI Processing"
+  - "Secure Communication"
+
+-----------------------------------
+
+8. VISUAL ENHANCEMENTS:
+-----------------------------------
+
+- Use cloud icons to group infrastructure
+- Add subtle grid or network background
+- Add glowing lines to represent data movement
+- Highlight AI layer as central intelligence
+
+-----------------------------------
+
+9. TITLE & FINISHING:
+-----------------------------------
+
+Top Title:
+"Cloud & Infrastructure Deployment Architecture"
+
+Subtitle:
+"Scalable, Secure, and AI-Driven Healthcare System Deployment"
+
+- Maintain clean spacing
+- Ensure readability
+- Avoid clutter
+- Make it suitable for PPT and technical explanation
+
+-----------------------------------
+
+The final output should look like a real-world production cloud architecture used in scalable AI-driven platforms and enterprise systems.

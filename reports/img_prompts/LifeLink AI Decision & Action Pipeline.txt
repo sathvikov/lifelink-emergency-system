@@ -1,0 +1,173 @@
+Create a highly detailed, ultra-high resolution (8K), professional AI workflow diagram titled:
+
+"LifeLink AI Decision & Action Pipeline"
+
+Style:
+- Futuristic, clean, enterprise AI system visualization
+- Dark theme with glowing neon accents OR white theme with soft gradients
+- 16:9 aspect ratio
+- Smooth vector icons, no cartoon style
+- Highlight AI as the intelligent core (brain-like visualization)
+
+Color Theme:
+- Purple → AI core (LifeLink AI)
+- Blue → data flow
+- Green → healthcare inputs
+- Orange → emergency actions
+- Yellow → outputs/alerts
+- Grey/white → infrastructure
+
+-----------------------------------
+LAYOUT (LEFT → RIGHT PIPELINE):
+-----------------------------------
+
+Design a horizontal pipeline with 4 major stages:
+
+INPUT → PROCESSING → DECISION → ACTION → OUTPUT
+
+Each stage must be clearly separated with labeled sections.
+
+-----------------------------------
+
+1. INPUT STAGE (LEFT):
+-----------------------------------
+
+Label: "Input Layer"
+
+Include sources:
+- Patient Request (symptoms, emergency trigger)
+- Hospital Data (availability, capacity)
+- Ambulance Status (location, availability)
+- Government Data (alerts, policies)
+- Real-time Sensor Data (optional)
+
+Use icons:
+- User icon
+- Hospital icon
+- GPS/ambulance icon
+
+Add label:
+"Raw Multi-Source Data Input"
+
+-----------------------------------
+
+2. PROCESSING STAGE:
+-----------------------------------
+
+Label: "Data Processing & Understanding"
+
+Inside this block include:
+- Data Aggregation Engine
+- Context Understanding Module
+- Natural Language Processing (for user input)
+- Data Cleaning & Validation
+
+Use layered blocks showing transformation of raw data
+
+-----------------------------------
+
+3. AI CORE (CENTER – MOST IMPORTANT):
+-----------------------------------
+
+Highlight a central glowing structure:
+
+"LifeLink AI"
+
+Design it like a brain or neural network hub
+
+Inside include:
+- Predictive Analytics Engine
+- Decision-Making Engine
+- Risk Assessment Model
+- Intelligent Routing Algorithm
+
+Add subtle neural network lines/glow
+
+-----------------------------------
+
+4. DECISION STAGE:
+-----------------------------------
+
+Label: "Decision & Planning"
+
+Include:
+- Best Hospital Selection
+- Ambulance Allocation
+- Priority Classification (critical, moderate, low)
+- Resource Optimization
+
+-----------------------------------
+
+5. ACTION STAGE:
+-----------------------------------
+
+Label: "Automated Actions"
+
+Include:
+- Dispatch Ambulance
+- Notify Hospital
+- Alert Government Systems
+- Generate Real-Time Instructions
+
+Use orange accents for emergency actions
+
+-----------------------------------
+
+6. OUTPUT STAGE (RIGHT):
+-----------------------------------
+
+Label: "Output & Response"
+
+Include:
+- Notifications to Users
+- Live Tracking Interface
+- Hospital Dashboards
+- Government Monitoring Panels
+
+Add glowing output signals
+
+-----------------------------------
+
+7. FLOW CONNECTIONS:
+-----------------------------------
+
+- Use strong directional arrows:
+  Input → Processing → LifeLink AI → Decision → Action → Output
+
+- Add labels on arrows:
+  - "Data Ingestion"
+  - "AI Analysis"
+  - "Decision Logic"
+  - "Execution Signals"
+
+- Include feedback loop:
+  Output → AI (continuous learning)
+
+-----------------------------------
+
+8. VISUAL ENHANCEMENTS:
+-----------------------------------
+
+- Add data streams flowing into AI core
+- Add pulse/glow effect from AI center
+- Use layered depth (3D-like feel)
+- Add subtle grid/tech background
+
+-----------------------------------
+
+9. TITLE & FINISHING:
+-----------------------------------
+
+Top Title:
+"LifeLink AI Decision & Action Pipeline"
+
+Subtitle:
+"Intelligent Agent-Based Healthcare Decision System"
+
+- Maintain clarity and spacing
+- Avoid clutter
+- Ensure it looks like a real AI system diagram used in enterprise solutions
+
+-----------------------------------
+
+The final output should clearly show that LifeLink AI is an intelligent decision-making system capable of processing data, making decisions, and executing real-world actions — not just a chatbot.

@@ -1,0 +1,189 @@
+Create a highly detailed, ultra-high resolution (8K), professional workflow diagram titled:
+
+"Real-Time Emergency Handling Workflow"
+
+Style:
+- Clean, modern, high-end system workflow visualization
+- Use a dark theme with glowing emergency highlights OR white theme with soft gradients
+- 16:9 aspect ratio
+- Smooth vector icons (no cartoon style)
+- Strong emphasis on motion, urgency, and real-time flow
+
+Color Theme:
+- Red/Orange → emergency events and alerts
+- Blue → system/data flow
+- Green → healthcare/treatment
+- Purple → AI processing (label strictly as "LifeLink AI")
+- Yellow → notifications
+- Grey/white → infrastructure
+
+-----------------------------------
+LAYOUT (LEFT → RIGHT SEQUENTIAL FLOW):
+-----------------------------------
+
+Design a clear linear workflow with connected stages:
+
+Accident → Detection → Alert → AI Processing → Dispatch → Transport → Treatment → Feedback
+
+Each stage should be in a separate block with icons and labels.
+
+-----------------------------------
+
+1. ACCIDENT STAGE (FAR LEFT):
+-----------------------------------
+
+Label: "Accident Occurs"
+
+Include:
+- Road accident / disaster icon
+- Injured person symbol
+
+Add sub-label:
+"Emergency Event Triggered"
+
+-----------------------------------
+
+2. DETECTION STAGE:
+-----------------------------------
+
+Label: "Detection"
+
+Include:
+- Mobile emergency trigger (user pressing SOS)
+- Sensors / IoT detection (optional)
+- Bystander reporting
+
+Sub-label:
+"Incident Identified in Real-Time"
+
+-----------------------------------
+
+3. ALERT STAGE:
+-----------------------------------
+
+Label: "Alert Generation"
+
+Include:
+- Alert signals sent to system
+- Notification icons
+
+Sub-label:
+"Emergency Alert Sent to System"
+
+-----------------------------------
+
+4. AI PROCESSING STAGE (CENTER FOCUS):
+-----------------------------------
+
+Highlight block:
+
+"LifeLink AI"
+
+Include:
+- Situation analysis
+- Severity classification
+- Nearest hospital identification
+- Ambulance routing
+
+Use glowing purple effect
+
+-----------------------------------
+
+5. DISPATCH STAGE:
+-----------------------------------
+
+Label: "Dispatch Coordination"
+
+Include:
+- Ambulance assignment
+- Hospital notification
+
+Sub-label:
+"Resources Allocated Instantly"
+
+-----------------------------------
+
+6. TRANSPORT STAGE:
+-----------------------------------
+
+Label: "Transport & Navigation"
+
+Include:
+- Ambulance moving with GPS tracking
+- Route optimization
+
+Sub-label:
+"Real-Time Tracking & Routing"
+
+-----------------------------------
+
+7. TREATMENT STAGE:
+-----------------------------------
+
+Label: "Hospital Treatment"
+
+Include:
+- Hospital receiving patient
+- Doctors ready
+
+Sub-label:
+"Immediate Medical Response"
+
+-----------------------------------
+
+8. FEEDBACK LOOP:
+-----------------------------------
+
+Label: "Continuous Monitoring"
+
+Include:
+- Data sent back to system
+- Status updates
+
+Arrow looping back to:
+LifeLink AI
+
+-----------------------------------
+
+9. FLOW CONNECTIONS:
+-----------------------------------
+
+- Strong directional arrows between each stage
+- Use glowing arrows to indicate real-time flow
+
+Add labels on arrows:
+- "Emergency Signal"
+- "AI Decision"
+- "Dispatch Command"
+- "Live Data"
+
+-----------------------------------
+
+10. VISUAL ENHANCEMENTS:
+-----------------------------------
+
+- Add motion-style arrows (dynamic feel)
+- Use pulse/glow around emergency stages
+- Add small icons for:
+  - GPS tracking
+  - Alerts
+  - Communication signals
+
+-----------------------------------
+
+11. TITLE & FINISHING:
+-----------------------------------
+
+Top Title:
+"Real-Time Emergency Handling Workflow"
+
+Subtitle:
+"AI-Driven Rapid Emergency Response System"
+
+- Ensure clean spacing and alignment
+- Avoid clutter
+- Make it easily understandable in under 5 seconds
+
+-----------------------------------
+
+The final output should visually demonstrate how LifeLink transforms a slow, fragmented emergency response into a fast, intelligent, real-time life-saving workflow.

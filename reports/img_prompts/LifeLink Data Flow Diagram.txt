@@ -1,0 +1,158 @@
+Create a highly detailed, ultra-high resolution (8K), professional data flow diagram titled:
+
+"LifeLink Data Flow Diagram"
+
+Style:
+- Clean, modern, engineering-grade system diagram
+- Use a dark theme with neon/glow data flow OR a white theme with soft gradients
+- 16:9 aspect ratio
+- Smooth vector icons, no cartoon style
+- Focus on flow clarity and layered structure
+
+Color Theme:
+- Blue → system/data flow
+- Green → healthcare inputs
+- Orange → emergency signals
+- Purple → AI processing (label strictly as "LifeLink AI")
+- Yellow → alerts/outputs
+- Grey/white → infrastructure
+
+-----------------------------------
+LAYOUT (TOP → BOTTOM DATA PIPELINE):
+-----------------------------------
+
+Design the diagram in 5 horizontal layers showing clear data movement:
+
+-----------------------------------
+
+1. DATA INPUT LAYER (TOP):
+-----------------------------------
+
+Include sources of data:
+
+- Patient App Inputs (health data, emergency request)
+- Ambulance GPS & Status
+- Hospital Systems (bed availability, resources)
+- Government Data (policies, alerts)
+- External Sensors / IoT (optional: disaster signals)
+
+Label this layer:
+"Data Sources"
+
+-----------------------------------
+
+2. APPLICATION LAYER:
+-----------------------------------
+
+- Mobile Application
+- Web Dashboard
+
+Show data being captured and forwarded
+
+Label:
+"Application Layer"
+
+-----------------------------------
+
+3. BACKEND PROCESSING LAYER:
+-----------------------------------
+
+- API Gateway
+- Data Ingestion Service
+- Real-Time Processing Engine
+- Emergency Coordination Engine
+
+Label:
+"Backend Processing Layer"
+
+-----------------------------------
+
+4. AI PROCESSING LAYER (CENTER FOCUS):
+-----------------------------------
+
+Highlight a central block:
+
+"LifeLink AI"
+
+Include internal components:
+- Data Aggregation
+- Predictive Analysis
+- Decision Engine
+- Intelligent Routing
+
+Use glowing purple visual emphasis
+
+-----------------------------------
+
+5. DATA STORAGE LAYER:
+-----------------------------------
+
+- Patient Database
+- Hospital Database
+- Emergency Logs
+- Live Data Streams
+
+Use database cylinder icons
+
+-----------------------------------
+
+6. OUTPUT / ACTION LAYER (BOTTOM):
+-----------------------------------
+
+- Alerts to Users
+- Ambulance Dispatch Instructions
+- Hospital Notifications
+- Government Dashboard Updates
+- Investor Analytics Insights
+
+Label:
+"Output & Action Layer"
+
+-----------------------------------
+
+7. DATA FLOW CONNECTIONS (VERY IMPORTANT):
+-----------------------------------
+
+- Use directional arrows showing flow:
+  Top → Bottom (primary flow)
+
+- Also include feedback loops:
+  AI → Backend → Application
+
+- Use different arrow styles:
+  - Solid arrows → data flow
+  - Dashed arrows → feedback/response
+
+- Add labels on arrows:
+  - "Real-time Data"
+  - "Processed Insights"
+  - "Emergency Signals"
+  - "AI Decisions"
+
+-----------------------------------
+
+8. VISUAL ENHANCEMENTS:
+-----------------------------------
+
+- Add flowing data stream lines (like glowing particles)
+- Use subtle grid or tech background
+- Highlight AI layer as the brain of the system
+
+-----------------------------------
+
+9. TITLE & FINISHING:
+-----------------------------------
+
+Top Title:
+"LifeLink Data Flow Diagram"
+
+Subtitle:
+"Real-Time Intelligent Data Processing & Decision System"
+
+- Maintain clear separation between layers
+- Avoid clutter
+- Ensure readability from distance (for PPT)
+
+-----------------------------------
+
+The final output should look like a professional data pipeline diagram used in AI-driven real-time systems and smart infrastructure platforms.

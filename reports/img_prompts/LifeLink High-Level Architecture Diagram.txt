@@ -1,0 +1,121 @@
+Create a highly detailed, professional, ultra-high resolution (8K) system architecture diagram titled:
+
+"LifeLink High-Level Architecture Diagram"
+
+Style:
+- Clean, modern, professional (no cartoon style)
+- Minimalistic with soft shadows and subtle gradients
+- Use a dark theme with glowing elements OR a white theme with soft color accents
+- Use a 16:9 aspect ratio
+- Use sharp vector-style icons and smooth connecting arrows
+
+Color Theme:
+- Blue for system components
+- Green for healthcare-related entities
+- Orange for emergency-related flows
+- Purple for AI (label as "LifeLink AI")
+- Grey/white for neutral infrastructure
+
+-----------------------------------
+LAYOUT (LEFT TO RIGHT FLOW):
+-----------------------------------
+
+1. USERS LAYER (Far Left):
+Include multiple user icons with labels:
+- General Public (mobile user icon)
+- Patients
+- Ambulance Drivers
+- Hospitals
+- Government Authorities
+
+Group them under a heading:
+"Users & Stakeholders"
+
+-----------------------------------
+
+2. APPLICATION LAYER:
+Place in the center-left:
+
+- Mobile Application (smartphone UI icon)
+- Web Application (desktop/laptop UI icon)
+
+Label this section:
+"Application Layer"
+
+-----------------------------------
+
+3. BACKEND LAYER (Center):
+Represent as a cloud/server block:
+
+- API Gateway
+- Authentication Service
+- Emergency Response Engine
+- Real-Time Data Processing Module
+
+Label this section:
+"Backend Infrastructure (MERN Stack)"
+
+-----------------------------------
+
+4. AI LAYER (Center-right):
+A distinct highlighted block labeled:
+
+"LifeLink AI"
+
+Include sub-elements:
+- Predictive Analytics
+- Decision Support System
+- Data Aggregation Engine
+- Intelligent Routing System
+
+Use glowing purple accents to highlight AI intelligence
+
+-----------------------------------
+
+5. DATABASE LAYER (Right side):
+Represent database systems:
+
+- Patient Records Database
+- Hospital Network Database
+- Emergency Logs
+- Real-Time Data Streams
+
+Use stacked database cylinder icons
+
+Label:
+"Data Layer"
+
+-----------------------------------
+
+6. FLOW CONNECTIONS:
+- Use arrows to show flow:
+  Users → Application → Backend → LifeLink AI → Database
+- Also include feedback loops:
+  AI → Backend → Application → Users
+
+Use smooth curved arrows with glow effect
+
+-----------------------------------
+
+7. EXTRA ELEMENTS:
+- Add small icons for:
+  - Real-time alerts
+  - GPS/location tracking
+  - Emergency signals
+- Add subtle grid or tech background
+
+-----------------------------------
+
+8. TITLE & FINISHING:
+- Add title at top:
+  "LifeLink High-Level Architecture Diagram"
+- Add subtle subtitle:
+  "An Intelligent Healthcare Infrastructure System"
+
+- Ensure spacing is clean and not cluttered
+- Maintain symmetry and alignment
+- Make it presentation-ready
+
+-----------------------------------
+
+Output must look like a real-world enterprise architecture diagram used in top-level tech presentations.
