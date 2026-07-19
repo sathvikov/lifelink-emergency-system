@@ -5,6 +5,15 @@ original_connect = asyncpg.connect
 original_create_pool = asyncpg.create_pool
 
 def _clean_dsn_and_get_ssl(dsn: str, kwargs: dict) -> str:
+    # Handle kwargs directly (e.g. when called by SQLAlchemy asyncpg dialect)
+    if "sslmode" in kwargs:
+        sslmode = kwargs.pop("sslmode")
+        if sslmode == "require" and "ssl" not in kwargs:
+            kwargs["ssl"] = "require"
+
+    if "channel_binding" in kwargs:
+        kwargs.pop("channel_binding")
+
     if not dsn or not isinstance(dsn, str):
         return dsn
 
