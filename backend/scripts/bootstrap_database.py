@@ -12,6 +12,7 @@ import asyncpg
 ROOT_DIR = Path(__file__).resolve().parent
 sys.path.insert(0, str(ROOT_DIR.parent))
 
+import app.core.patch_asyncpg
 from app.core.config import get_settings
 from app.db.mongo import connect_to_mongo, close_mongo_connection
 from scripts.seed_mass_demo_data import seed
@@ -22,8 +23,20 @@ BOOTSTRAP_CHECK_TABLE = "gov_hospitals"
 
 def _normalize_dsn(postgres_url: str) -> str:
     if postgres_url.startswith("postgresql+asyncpg://"):
-        return postgres_url.replace("postgresql+asyncpg://", "postgresql://", 1)
+        postgres_url = postgres_url.replace("postgresql+asyncpg://", "postgresql://", 1)
+    if "?" in postgres_url:
+        base, query = postgres_url.split("?", 1)
+        params = [p for p in query.split("&") if not p.startswith(("sslmode=", "channel_binding="))]
+        if params:
+            return f"{base}?{'&'.join(params)}"
+        return base
     return postgres_url
+
+
+async def _asyncpg_connect(dsn: str) -> asyncpg.Connection:
+    postgres_url = os.environ.get("POSTGRES_URL", "")
+    ssl = "require" if "sslmode=require" in postgres_url else None
+    return await asyncpg.connect(dsn=dsn, ssl=ssl)
 
 
 def _load_env() -> None:
@@ -36,7 +49,7 @@ async def _wait_for_postgres(dsn: str, retries: int = 12, delay_seconds: int = 5
     last_exc: Optional[Exception] = None
     for attempt in range(1, retries + 1):
         try:
-            conn = await asyncpg.connect(dsn=dsn)
+            conn = await _asyncpg_connect(dsn=dsn)
             await conn.close()
             return
         except Exception as exc:
@@ -56,7 +69,7 @@ async def _apply_schema(dsn: str) -> None:
         print(f"[bootstrap_database] Applying schema from {schema_path}")
         raw_sql = schema_path.read_text(encoding='utf-8')
         statements = [stmt.strip() for stmt in raw_sql.split(";") if stmt.strip()]
-        conn = await asyncpg.connect(dsn=dsn)
+        conn = await _asyncpg_connect(dsn=dsn)
         try:
             for statement in statements:
                 try:
@@ -74,7 +87,7 @@ async def _apply_schema(dsn: str) -> None:
 
 
 async def _needs_demo_seed(dsn: str) -> bool:
-    conn = await asyncpg.connect(dsn=dsn)
+    conn = await _asyncpg_connect(dsn=dsn)
     try:
         exists = await conn.fetchval(
             "SELECT EXISTS (SELECT 1 FROM information_schema.tables WHERE table_schema = 'public' AND table_name = $1)",

@@ -16,18 +16,26 @@ asyncpg_state = AsyncpgState()
 
 def _normalize_dsn(postgres_url: str) -> str:
     if postgres_url.startswith("postgresql+asyncpg://"):
-        return postgres_url.replace("postgresql+asyncpg://", "postgresql://", 1)
+        postgres_url = postgres_url.replace("postgresql+asyncpg://", "postgresql://", 1)
+    if "?" in postgres_url:
+        base, query = postgres_url.split("?", 1)
+        params = [p for p in query.split("&") if not p.startswith(("sslmode=", "channel_binding="))]
+        if params:
+            return f"{base}?{'&'.join(params)}"
+        return base
     return postgres_url
 
 
 async def connect_asyncpg() -> None:
     settings = get_settings()
     dsn = _normalize_dsn(settings.postgres_url)
+    ssl = "require" if "sslmode=require" in settings.postgres_url else None
     asyncpg_state.pool = await asyncpg.create_pool(
         dsn=dsn,
         min_size=2,
         max_size=10,
         command_timeout=30,
+        ssl=ssl,
     )
 
 

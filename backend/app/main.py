@@ -1,3 +1,4 @@
+import app.core.patch_asyncpg
 import logging
 from contextlib import asynccontextmanager
 

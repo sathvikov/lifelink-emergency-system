@@ -2,11 +2,16 @@ from __future__ import annotations
 
 import asyncio
 import os
+import sys
 from pathlib import Path
 from typing import Any
 
+ROOT_DIR = Path(__file__).resolve().parent
+sys.path.insert(0, str(ROOT_DIR.parent))
+
 from dotenv import load_dotenv
 import asyncpg
+import app.core.patch_asyncpg
 
 
 def _normalize_dsn(postgres_url: str) -> str:
